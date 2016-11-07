@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>首页</title>
     <script defer src="../javascript/website.js"></script>
     <script defer src="../javascript/zhuce.js"></script>
+    <script defer src="../javascript/denglu.js"></script>
     <link rel="stylesheet" href="../css/website.css">
     <link rel="stylesheet" href="../css/zhuce.css">
+    <link rel="stylesheet" href="../css/denglu.css">
 </head>
 <body>
 <div id="zdiv">
@@ -18,7 +20,7 @@
         </div>
         <div id="headright_div">
             <div id="span_div">
-                <span id="dl_sapn">登陆</span>
+                <span id="dl_span">登陆</span>
                 <span style="margin-left: -9px;color: gray;font-size: 13px;">/</span>
                 <sapn id="zc_span">注册账号</sapn>
             </div>
@@ -241,6 +243,29 @@
         <span>已经是会员?<a href="#">立即登录</a></span>
     </div>
     <img src="../images/dianji.png" id="zc_Dianji">
+</div>
+<div id="dl_div">
+    <div id="dlHead_div">
+        <img src="../images/Logo.png" id="dlLogoimg">
+        <b><span>注册成为GSIZE会员</span></b>
+    </div>
+    <div id="dlMsg">
+        <input type="text" value="电子邮件" id="dl_email">
+        <input type="text" value="密码" id="dl_password">
+        <input type="checkbox" style="margin-top: 6px;">
+        <span>保持登录状态</span>
+        <a href="#">忘记密码?</a>
+    </div>
+    <div id="dlItem">
+        <span id="dlItem_span">一旦登录，即表明你同意GSIZE的<a href="#">隐私政策</a>和<a href="#">使用条款</a></span>
+    </div>
+    <div id="dlbtn_div">
+        <span>登录账户</span>
+    </div>
+    <div id="create_div">
+        <span>创建账户</span>
+    </div>
+    <img src="../images/dianji.png" id="dl_Dianji">
 </div>
 </body>
 </html>
