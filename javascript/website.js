@@ -2,16 +2,25 @@
  * Created by Administrator on 2016/11/4.
  */
 var headimg1 = document.getElementById("headimg1");
-var change1 = document.getElementById("change1");
 var headimg2 = document.getElementById("headimg2");
-var change2 = document.getElementById("change2");
+var headimg3 = document.getElementById("headimg3");
 headimg1.onmouseover = function(){
-  change1.style.display = "block";
-  headimg1.style.display = "none";
+  headimg1.src = "../images/1.png";
 }
 headimg1.onmouseout = function(){
-  change1.style.display = "none";
-  headimg1.style.display = "block";
+  headimg1.src = "../images/headimg1.png";
+}
+headimg2.onmouseover = function(){
+  headimg2.src = "../images/2.png";
+}
+headimg2.onmouseout = function(){
+  headimg2.src = "../images/headimg2.png";
+}
+headimg3.onmouseover = function(){
+  headimg3.src = "../images/3.png";
+}
+headimg3.onmouseout = function(){
+  headimg3.src = "../images/headimg3.png";
 }
 var jiantouimg = document.getElementById("jiantouimg");
 var guoqi = document.getElementById("guoqi");
@@ -21,6 +30,7 @@ jiantouimg.onmouseover = function(){
 jiantouimg.onmouseout = function(){
   guoqi.style.display = "none";
 }
+
 var home = document.getElementById("home");
 var underline1 = document.getElementById("underline1");
 var jordan = document.getElementById("jordan");
