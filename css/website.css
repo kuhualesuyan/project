@@ -3,7 +3,20 @@ body{
     margin: 0px;
 
 }
-
+#zdiv{
+    width:1440px;
+    height:2298px;
+    /*border:1px solid black;*/
+}
+#z_div{
+    width: 1440px;
+    height: 2340px;
+    background-color: rgb(145,145,145);
+    position: absolute;
+    top: 0px;
+    opacity: 0.5;
+    display: none;
+}
 #head_div {
     width: 1439px;
     height: 46px;

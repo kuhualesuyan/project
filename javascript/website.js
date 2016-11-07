@@ -102,6 +102,8 @@ sousuoimg.onclick = function(){
   menu_ul.style.display = "none";
   input_div.style.display = "block";
 }
+
+
 var goumai_div = document.getElementById("goumai_div");
 goumai_div.onclick = function(){
   goumai_div.style.backgroundColor = "rgb(0,170,232)";

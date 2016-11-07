@@ -1,0 +1,156 @@
+#zc_div{
+    width: 476px;
+    height: 797px;
+    /*border: 1px solid black;*/
+    position: absolute;
+    top: 105px;
+    left: 483px;
+    background-color: rgb(255,255,255);
+    display: none;
+}
+#zc_Dianji{
+    position: absolute;
+    top: 15px;
+    left: 444px;
+}
+#zcHead_div{
+    width: 225px;
+    height: 75px;
+    /*border: 1px solid black;*/
+    margin-left: 126px;
+    margin-top: 48px;
+}
+#zcHead_div span{
+    position: relative;
+    top: 16px;
+    font-size: 25px;
+}
+#zcLogoimg{
+    width: 179px;
+    height: 29px;
+    padding-left: 24px;
+}
+#zcMsg_div{
+    width: 382px;
+    height: 436px;
+    /*border: 1px solid black;*/
+    margin-left: 51px;
+    margin-top: 35px;
+}
+#email{
+    width: 378px;
+    height: 38px;
+    border: 1px solid rgb(235,235,235);
+    color: rgb(199,198,198);
+}
+#password{
+    width: 378px;
+    height: 38px;
+    margin-top: 15px;
+    border: 1px solid rgb(235,235,235);
+    color: rgb(199,198,198);
+}
+#name{
+     width: 378px;
+     height: 38px;
+    margin-top: 15px;
+    border: 1px solid rgb(235,235,235);
+    color: rgb(199,198,198);
+ }
+#name1{
+    width: 378px;
+    height: 38px;
+    margin-top: 15px;
+    border: 1px solid rgb(235,235,235);
+    color: rgb(199,198,198);
+}
+#birth{
+    width: 378px;
+    height: 38px;
+    margin-top: 15px;
+    border: 1px solid rgb(235,235,235);
+    color: rgb(199,198,198);
+}
+#china{
+    width: 378px;
+    height: 38px;
+    margin-top: 15px;
+    border: 1px solid rgb(235,235,235);
+    color: rgb(199,198,198);
+}
+#telnumber{
+    width: 378px;
+    height: 38px;
+    margin-top: 15px;
+    border: 1px solid rgb(235,235,235);
+    color: rgb(199,198,198);
+}
+#sex_male{
+    width: 180px;
+    height: 37px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(235,235,235);
+    margin-top: 15px;
+    color: rgb(199,198,198);
+}
+#sex_female{
+    width: 180px;
+    height: 37px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(235,235,235);
+    margin-top: 15px;
+    color: rgb(199,198,198);
+    margin-left: 13px;
+}
+#zcjiantouimg{
+    position: absolute;
+    top: 466px;
+    left: 414px;
+}
+#zcItem{
+    width: 308px;
+    height: 63px;
+    /*border: 1px solid black;*/
+    margin-left: 85px;
+    margin-top: 16px;
+}
+#zcItem_span{
+    font-size: 13px;
+    color: rgb(126,122,122);
+    position: relative;
+    top: -2px;
+    left: -7px;
+}
+#zcItem_span1{
+    font-size: 13px;
+    color: rgb(126,122,122);
+    position: relative;
+    top: 26px;
+}
+#btn_div{
+    width: 379px;
+    height: 40px;
+    /*border: 1px solid black;*/
+    margin-left: 51px;
+    background-color: black;
+    margin-top: 24px;
+    cursor: pointer;
+}
+#btn_div span{
+    color: white;
+    position: relative;
+    top: 11px;
+    left: 161px;
+}
+#zcEnd_div{
+    width: 127px;
+    height: 12px;
+    /*border: 1px solid black;*/
+    margin-left: 174px;
+    margin-top: 27px;
+}
+#zcEnd_div span{
+    font-size: 13px;
+    position: absolute;
+    color: rgb(126,122,122);
+}
