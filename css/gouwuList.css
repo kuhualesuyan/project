@@ -7,6 +7,15 @@ body{
     height: 3044px;
     /*border: 1px solid black;*/
 }
+#z_div{
+    width: 1440px;
+    height: 2340px;
+    background-color: rgb(145,145,145);
+    position: absolute;
+    top: 0px;
+    opacity: 0.5;
+    display: none;
+}
 /*head begin*/
 #head_div {
     width: 1439px;
@@ -256,6 +265,9 @@ body{
     color:rgb(141,141,141);
     font-size: 13px;
 }
+#brand_div li a:hover{
+    color:rgb(0,170,232);
+}
 #Class_span{
     padding-left: 92px;
     position: absolute;
@@ -274,6 +286,9 @@ body{
     text-decoration: none;
     color:rgb(141,141,141);
     font-size: 13px;
+}
+#class_div li a:hover{
+    color:rgb(0,170,232);
 }
 #Appobj_span{
     padding-left: 65px;
@@ -294,6 +309,9 @@ body{
     color:rgb(141,141,141);
     font-size: 13px;
 }
+#appobj_div li a:hover{
+    color:rgb(0,170,232);
+}
 #Size_span{
     left: 313px;
     position: absolute;
@@ -312,6 +330,9 @@ body{
     text-decoration: none;
     color:rgb(141,141,141);
     font-size: 13px;
+}
+#size_div li a:hover{
+    color:rgb(0,170,232);
 }
 #size_div img{
     position: absolute;

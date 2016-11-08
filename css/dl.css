@@ -1,0 +1,107 @@
+#dl_div{
+    width: 476px;
+    height: 511px;
+    border: 1px solid black;
+    position: absolute;
+    top: 105px;
+    left: 483px;
+    background-color: rgb(255,255,255);
+    /*display: none;*/
+}
+#dl_Dianji{
+    position: absolute;
+    top: 15px;
+    left: 444px;
+}
+#dlHead_div{
+    width: 225px;
+    height: 75px;
+    /*border: 1px solid black;*/
+    margin-left: 126px;
+    margin-top: 48px;
+}
+#dlHead_div span{
+    position: relative;
+    top: 16px;
+    font-size: 25px;
+}
+#dlLogoimg{
+    width: 179px;
+    height: 29px;
+    padding-left: 24px;
+}
+#dlMsg{
+    width: 379px;
+    height: 137px;
+    /*border: 1px solid black;*/
+    margin-top: 35px;
+    margin-left: 51px;
+}
+#dl_email{
+    width: 375px;
+    height: 41px;
+    color: rgb(164,163,163);
+}
+#dl_password{
+    width: 375px;
+    height: 41px;
+    margin-top: 15px;
+    color: rgb(164,163,163);
+}
+#dlMsg span{
+    font-size: 13px;
+    color: rgb(164,163,163);
+    padding-left: -12px;
+    position: absolute;
+    top: 272px;
+}
+#dlMsg a{
+    font-size: 13px;
+    color: rgb(164,163,163);
+    position: absolute;
+    top: 272px;
+    left: 368px;
+    text-decoration: none;
+}
+#dlItem{
+    width: 308px;
+    height: 12px;
+    /*border: 1px solid black;*/
+    margin-left: 84px;
+    margin-top: 28px;
+}
+#dlItem_span{
+    font-size: 13px;
+    color: rgb(126,122,122);
+    position: relative;
+    top: -4px;
+}
+#dlbtn_div{
+    width: 379px;
+    height: 40px;
+    border: 1px solid black;
+    margin-left: 49px;
+    margin-top: 32px;
+    background-color: black;
+    cursor: pointer;
+}
+#dlbtn_div span{
+    color: white;
+    padding-left: 161px;
+    position: absolute;
+    top: 384px;
+}
+#create_div{
+    width: 379px;
+    height: 40px;
+    border: 1px solid black;
+    margin-left: 49px;
+    margin-top: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+#create_div span{
+    padding-left: 161px;
+    position: absolute;
+    top: 441px;
+}
