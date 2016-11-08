@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>支付</title>
+    <script defer src="../javascript/jiesuan.js"></script>
+    <link rel="stylesheet" href="../css/jiesuan.css">
+</head>
+<body>
+<div id="ZDiv">
+    <div id="head_div">
+        <div id="headimg_div">
+            <img src="../images/headimg1.png" id="headimg1">
+            <img src="../images/headimg2.png" id="headimg2">
+            <img src="../images/headimg3.png" id="headimg3">
+        </div>
+        <div id="headright_div">
+            <div id="span_div">
+                <span id="dl_span">登陆</span>
+                <span style="margin-left: -9px;color: gray;font-size: 13px;">/</span>
+                <sapn id="zc_span">注册账号</sapn>
+            </div>
+            <div id="headrightimg_div">
+                <img src="../images/shoppingcar.png" style="cursor: pointer;">
+                <img src="../images/china.png">
+                <li style="list-style-type: none;" id="jiantouimg"><img src="../images/jiantou.png">
+                    <ul id="guoqi">
+                        <li><img src="../images/guoqi1.png"></li>
+                        <li><img src="../images/guoqi2.png"></li>
+                        <li><img src="../images/guoqi3.png"></li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div id="logoimg_div">
+        <img src="../images/Logo.png" id="logoimg">
+        <img src="../images/jiesuan/liucheng.png" id="lcImg">
+        <ul>
+            <li style="color:rgb(250,84,0)">查看购物车</li>
+            <li>拍下商品</li>
+            <li>付款</li>
+            <li>确认收货</li>
+            <li>评价</li>
+        </ul>
+    </div>
+    <div id="JieSuan_div">
+        <div id="text_div">
+            <div class="t_div">
+                <!--<span>亲爱的顾客,近期有不法分子假冒各大品牌工作人员进行诈骗活动,为了您的账户和财产安全,请勿轻信此类信息,谨防被骗.</span>-->
+                <p>亲爱的顾客,近期有不法分子假冒各大品牌工作人员进行诈骗活动,为了您的账户和财产安全,请勿轻信此类信息,谨防被骗.</p>
+
+            </div>
+            <div class="share_div">
+                <span style="color: rgb(54,54,54);font-family: fantasy;padding-left: 26px;position: absolute;top: 286px;">成为GSIZE会员,享受每笔订单免费配送,和30天无理由退换货。</span><br>
+                <a href="#" style="color: rgb(54,54,54);font-family: fantasy;position: absolute;top: 317px;padding-left: 26px;">加入GSIZE</a><br>
+                <span style="position: absolute;top: 352px;font-size: 13px;color: rgb(169,169,169);padding-left: 26px;">非会员每笔订单需达到399元即可享受免费配送服务.了解详情</span><br>
+            </div>
+            <div id="shoppingCar_div">
+                <span style="color: rgb(54,54,54);padding-left: 26px;position: absolute;top: 404px;font-family: fantasy;">您的购物车
+                    <span>（1）</span></span>
+            </div>
+        </div>
+        <div id="JSMsg_div">
+            <div id="xjmsg_div">
+                <b><span style="color: white;padding-left: 22px;position: absolute;top: 209px;">小结信息</span></b>
+                <hr style="position: absolute;width: 289px;top: 241px;">
+            </div>
+               <div id="sale_div">
+                   <span style="color: white;padding-left: 23px;position: absolute;top: 13px;">是否有促销吗?</span>
+                   <input type="text" style="position: absolute;top: 42px;margin-left: 24px;width: 151px;height: 30px;border-radius: 4px; border: none;outline: none;">
+                   <button style="width: 84px;height: 32px;background-color: white;border: none;position: absolute;margin-left: 183px;top: 42px;border-radius: 4px;outline: none;">确定</button>
+                   <hr style="position: absolute;width: 289px;top: 86px;">
+               </div>
+            <div id="spAmount_div">
+                <span style="color: white;padding-left: 24px;position: absolute;top: 10px;">订单商品总额</span>
+                <span style="color: white;padding-left: 204px;position: absolute;top: 10px;">￥1199.00</span>
+                <hr style="position: absolute;width: 289px;top: 35px;">
+            </div>
+            <div id="yunfei_div">
+                <span style="color: white;padding-left: 25px;position: absolute;top: 10px;">实际支付运费</span>
+                <span style="color: white;padding-left: 228px;position: absolute;top: 10px;">￥0.00</span>
+                <span style="color: white;padding-left: 25px;position: absolute;top: 32px;">普通达:免费25-30天</span>
+                <hr style="position: absolute;width: 289px;top: 58px;">
+            </div>
+            <div id="js_div">
+                <span style="color: white;padding-left: 23px;position: absolute;top: 15px;font-size: 23px;">订单总计</span>
+                <span style="color: white;padding-left: 172px; position: absolute;top: 14px;font-size: 23px;">￥1199.00</span>
+                <hr style="position: absolute;width: 289px;top: 43px;">
+            </div>
+            <div id="jsbtn_div">
+                <button>结算</button>
+            </div>
+        </div>
+        <div id="JTmsg_div">
+            <div id="Img_div">
+                <img src="../images/qiuxie.jpg">
+            </div>
+            <div id="xiangximsg">
+                <span style="color: rgb(127,127,127);">NIKE LEBRON SOLDIER 10 SFG EP <b style="color: black;">男子篮球鞋</b></span>
+                <b><span style="padding-left: 46px;color: rgb(250,84,0);">￥1199.00</span></b>
+                <hr style="margin-top: 0px;">
+                <b>款式#:  <span style="color: rgb(160,158,158);">852400-060</span></b><br>
+                <b>尺寸:  <span style="color: rgb(160,158,158);">EURO 50.5</span></b><br>
+                <b>数量:  <span style="color: rgb(160,158,158);">1@￥1199</span></b><br>
+                <b>Design ID:  <span style="color: rgb(160,158,158);">852400-060</span></b>
+                <button style="width: 136px;height: 29px;border: 1px solid rgb(229,229,229);position: absolute;top: 614px;background-color: rgb(247,247,247);left: 435px;outline: none;">删除</button>
+                <button style="width: 136px;height: 29px;border: 1px solid rgb(229,229,229);position: absolute;top: 614px;background-color: rgb(247,247,247);left: 579px;outline: none;">编辑</button>
+                <input type="checkbox" style="width: 20px;height: 20px;border: none;margin-left: 433px; margin-top: 22px;">
+            </div>
+        </div>
+        <div class="free_div">
+            <span style="font-size: 17px;color: rgb(158,156,156);padding-left: 33px;position: absolute;top: 643px;">免费配送服务</span>
+            <!--<span style="font-size: 17px;color: rgb(158,156,156);padding-left: 33px;position: relative;top: 47px;">您的订单可享受免费配送服务,不包含礼品卡消费金额</span>-->
+            <p style="font-size: 12px;color: rgb(158,156,156);padding-left: 33px;position: relative;top: 38px;">您的订单可享受免费配送服务,不包含礼品卡消费金额</p>
+
+        </div>
+    </div>
+
+    <div id="end_div">
+        <ul id="end_ul">
+            <li><a href="#">电子礼品卡</a></li>
+            <li><a href="#">附近商店</a></li>
+            <li><a href="#">订阅电子邮件</a></li>
+            <li><a href="#">注册NIKE会员</a></li>
+        </ul>
+        <ul id="end_ul1">
+            <li><a href="#">获取帮助</a></li>
+            <li><a href="#">订单状态</a></li>
+            <li><a href="#">配送方式</a></li>
+            <li><a href="#">退货款</a></li>
+            <li><a href="#">付款选项</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+        <ul id="end_ul2">
+            <li><a href="#">新闻</a></li>
+            <li><a href="#">关于G-SIZE</a></li>
+            <li><a href="#">投资者</a></li>
+            <li><a href="#">招贤纳士</a></li>
+            <li><a href="#">新品预览</a></li>
+        </ul>
+        <div id="shequ_div">
+            <span>社区</span>
+            <div id="endLogo_div">
+                <img src="../images/QQlogo.png">
+                <img src="../images/WXlogo.png">
+                <img src="../images/XLlogo.png">
+            </div>
+        </div>
+        <hr style="width: 1006px;margin-top: 147px;">
+        <div id="bottom_div">
+            <img src="../images/china.png">
+            <span style="font-size: 12px;padding-left: 10px;color: rgb(185, 185, 185);">中国大陆</span>
+            <ul>
+                <li id="bottom_li">2016 NIKE,Inc.保留所有权利</li>
+                <li id="bottom_li1">分类浏览 使用条款 隐私政策 沪ICP备14009339号</li>
+                <li id="bottom_li2"><img src="../images/guohui.png">沪公网安备310110020001777号
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

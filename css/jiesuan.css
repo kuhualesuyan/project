@@ -1,0 +1,340 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#ZDiv{
+    width: 1440px;
+    height: 1080px;
+    /*border: 1px solid black;*/
+}
+/*head begin*/
+#head_div {
+    width: 1439px;
+    height: 46px;
+    border-bottom: 1px solid gray;
+}
+#headimg_div {
+    width: 154px;
+    height: 46px;
+    /*border: 1px solid black;*/
+    margin-left: 244px;
+}
+#headimg1 {
+    padding-top: 14px;
+    cursor: pointer;
+    width: 19px;
+    height: 18px;
+}
+
+#headimg2 {
+    padding-left: 33px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    width: 28px;
+    height: 10px;
+}
+
+#headimg3 {
+    padding-left: 33px;
+    cursor: pointer;
+    width: 25px;
+    height: 18px;
+}
+#headright_div{
+    width: 161px;
+    height: 46px;
+    /*border: 1px solid black;*/
+    margin-left: 1017px;
+    margin-top: -47px;
+}
+#span_div{
+    width: 86px;
+    height: 16px;
+    /*border: 1px solid black;*/
+    margin-top: 14px;
+}
+#zc_span{
+    margin-left: -9px;
+    color: gray;
+    font-size: 13px;
+    cursor: pointer;
+}
+#dl_span{
+    color: gray;
+    font-size: 13px;
+    cursor: pointer;
+}
+#headrightimg_div{
+    width: 62px;
+    /*border: 1px solid black;*/
+    height: 98px;
+    margin-left: 98px;
+    margin-top: -16px;
+}
+#jiantouimg{
+    padding-left: 50px;
+    position: relative;
+    top: -20px;
+    cursor: context-menu;
+}
+#guoqi{
+    list-style-type: none;
+    position: absolute;
+    left: -11px;
+    top: 2px;
+    display: none;
+}
+/*head end*/
+
+/*logo*/
+#logoimg_div{
+    width: 1439px;
+    height: 88px;
+    /*border: 1px solid black;*/
+}
+#logoimg{
+    padding-left: 238px;
+    padding-top: 41px;
+}
+#lcImg{
+    width: 503px;
+    height: 19px;
+    padding-left: 88px;
+    cursor: pointer;
+}
+#logoimg_div ul{
+    list-style-type: none;
+    padding-left: 601px;
+    margin-top: -49px;
+}
+#logoimg_div ul li{
+    float: left;
+    padding-right: 63px;
+}
+/*结算过程*/
+#JieSuan_div{
+    width: 1002px;
+    height: 570px;
+    /*border: 1px solid black;*/
+    margin-left: 219px;
+    margin-top: 53px;
+}
+#text_div{
+    width: 645px;
+    height: 274px;
+    /*border: 1px solid black;*/
+    margin-left: 23px;
+}
+.t_div{
+    width: 644px;
+    height: 76px;
+    /*border: 1px solid black;*/
+    background-color: rgb(238,238,238);
+    position: relative;
+    top: -12px;
+}
+.t_div p{
+    color: rgb(120,120,120);
+    font-size: 12px;
+    position: relative;
+    top: 26px;
+    padding-left: 26px;
+}
+.share_div{
+    width: 644px;
+    height: 102px;
+    /*border: 1px solid black;*/
+    margin-top: 2px;
+    background-color: rgb(238,238,238);
+}
+#shoppingCar_div{
+    width: 644px;
+    height: 61px;
+    /*border: 1px solid black;*/
+    margin-top: 14px;
+    background-color: rgb(238,238,238);
+}
+#JSMsg_div{
+    width: 293px;
+    height: 407px;
+    /*border: 1px solid black;*/
+    margin-left: 688px;
+    margin-top: -277px;
+    background-color: black;
+}
+#xjmsg_div{
+    width: 293px;
+    height: 70px;
+}
+#sale_div{
+    width: 292px;
+    height: 89px;
+    position: absolute;
+    top: 252px;
+}
+#spAmount_div{
+    width:293px;
+    height:43px;
+    position: absolute;
+    top: 349px;
+}
+#yunfei_div{
+    width:292px;
+    height:66px;
+    position: absolute;
+    top: 394px;
+}
+#js_div{
+    width:292px;
+    height:51px;
+    position: absolute;
+    top: 462px;
+}
+#jsbtn_div{
+    width:291px;
+    height: 82px;
+    position: absolute;
+    top: 515px;
+}
+#jsbtn_div button{
+    width: 253px;
+    height: 40px;
+    background-color: rgb(250,84,0);
+    color: white;
+    border: none;
+    margin-left: 21px;
+    margin-top: 20px;
+    outline: none;
+}
+#JTmsg_div{
+    width: 641px;
+    height: 168px;
+    /*border: 1px solid black;*/
+    margin-left: 25px;
+    margin-top: -111px;
+}
+#Img_div{
+    width: 165px;
+    height: 165px;
+    border: 1px solid rgb(229,229,229);
+}
+#Img_div img{
+    width: 165px;
+    height: 165px;
+}
+#xiangximsg{
+    width: 452px;
+    height: 141px;
+    /*border: 1px solid black;*/
+    margin-left: 188px;
+    margin-top: -153px;
+}
+.free_div{
+    width: 293px;
+    height: 111px;
+    /*border: 1px solid rgb(235,235,235);*/
+    margin-left: 687px;
+    margin-top: -35px;
+}
+/*end*/
+#end_div{
+    width: 1440px;
+    height: 322px;
+    border: 1px solid black;
+    /*margin-top: -126px;*/
+    background-color: black;
+}
+#end_ul{
+    padding-left: 289px;
+    list-style-type: none;
+    padding-top: 39px;
+}
+#end_ul li{
+    padding-bottom: 15px;
+}
+#end_ul li a{
+    text-decoration: none;
+    color: rgb(71,71,71);
+    font-size: 12px;
+}
+#end_ul1{
+    list-style-type: none;
+    padding-left: 481px;
+    padding-top: -16px;
+    margin-top: -148px;
+}
+#end_ul1 li{
+    padding-bottom: 15px;
+}
+#end_ul1 li a{
+    text-decoration: none;
+    color: rgb(71,71,71);
+    font-size: 12px;
+}
+#end_ul2{
+    list-style-type: none;
+    padding-left: 648px;
+    margin-top: -214px;
+}
+#end_ul2 li{
+    padding-bottom: 15px;
+}
+#end_ul2 li a{
+    text-decoration: none;
+    color: rgb(71,71,71);
+    font-size: 12px;
+}
+#shequ_div{
+    width: 254px;
+    height: 115px;
+    /*border: 1px solid white;*/
+    margin-left: 965px;
+    margin-top: -219px;
+}
+#shequ_div span{
+    color: white;
+    padding-left: 145px;
+    position: relative;
+    top: 29px;
+}
+#endLogo_div{
+    width: 193px;
+    height: 43px;
+    /*border: 1px solid white;*/
+    margin-left: 10px;
+    margin-top: 53px;
+}
+#endLogo_div img{
+    padding-right:20px;
+    cursor: pointer;
+}
+#bottom_div{
+    width:765px;
+    height: 54px;
+    /*border: 1px solid white;*/
+    margin-left: 398px;
+}
+#bottom_div ul{
+    list-style-type: none;
+}
+#bottom_li{
+    float: left;
+    color: rgb(71,71,71);
+    font-size: 12px;
+    padding-left: 60px;
+    margin-top: -30px;
+}
+#bottom_li1{
+    float: left;
+    color: rgb(71,71,71);
+    font-size: 12px;
+    padding-left: 227px;
+    margin-top: -30px;
+}
+#bottom_li2{
+    float: left;
+    color: rgb(71,71,71);
+    font-size: 12px;
+    padding-left: 501px;
+    margin-top: -30px;
+}
