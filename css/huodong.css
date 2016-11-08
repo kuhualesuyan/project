@@ -1,0 +1,72 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#dDiv{
+    width: 1440px;
+    height: 6989px;
+    border: 1px solid black;
+}
+#tupianshang_div{
+    width: 1440px;
+    height: 2478px;
+    border: 1px solid black;
+    margin-top: -1px;
+}
+#tupianxia_div{
+    width: 1440px;
+    height: 2910px;
+    border: 1px solid black;
+}
+#xia1_div{
+    width: 1434px;
+    height: 1434px;
+    border: 1px solid black;
+}
+#xia2_div{
+    width: 1440px;
+    height: 1459px;
+    border: 1px solid red;
+    /*margin-top: 1450px;*/
+}
+#logo{
+    position: absolute;
+    top: 303px;
+    left: 436px;
+}
+.mdiv{
+    /*border: 1px solid white;*/
+    width: 1440px;
+    height: 39px;
+    position: absolute;
+    top: 2383px;
+    left: 163px;
+}
+.mdiv div{
+    border: 1px solid white;
+    width: 16px;
+    height: 15px;
+    border-radius: 79px;
+    float: left;
+    margin-right: 89px;
+    background: url(../images/shouye/dian_1.png);
+    background-position: 16px 16px;
+}
+.madiv{
+    /*border: 1px solid white;*/
+    width: 1440px;
+    height: 39px;
+    position: absolute;
+    top: 2520px;
+    left: 163px;
+}
+.madiv div{
+    border: 1px solid white;
+    width: 16px;
+    height: 15px;
+    border-radius: 79px;
+    float: left;
+    margin-right: 89px;
+    background: url(../images/shouye/dian_1.png);
+    background-position: 16px 16px;
+}
