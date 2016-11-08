@@ -1,0 +1,335 @@
+body{
+    padding: 0px;
+    margin:0px;
+}
+#Z_DIV{
+    width:1440px;
+    height:1034px;
+}
+/*head begin*/
+#head_div {
+    width: 1439px;
+    height: 46px;
+    border-bottom: 1px solid gray;
+}
+#headimg_div {
+    width: 154px;
+    height: 46px;
+    /*border: 1px solid black;*/
+    margin-left: 244px;
+}
+#headimg1 {
+    padding-top: 14px;
+    cursor: pointer;
+    width: 19px;
+    height: 18px;
+}
+
+#headimg2 {
+    padding-left: 33px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    width: 28px;
+    height: 10px;
+}
+
+#headimg3 {
+    padding-left: 33px;
+    cursor: pointer;
+    width: 25px;
+    height: 18px;
+}
+#headright_div{
+    width: 161px;
+    height: 46px;
+    /*border: 1px solid black;*/
+    margin-left: 1017px;
+    margin-top: -47px;
+}
+#span_div{
+    width: 86px;
+    height: 16px;
+    /*border: 1px solid black;*/
+    margin-top: 14px;
+}
+#zc_span{
+    margin-left: -9px;
+    color: gray;
+    font-size: 13px;
+    cursor: pointer;
+}
+#dl_span{
+    color: gray;
+    font-size: 13px;
+    cursor: pointer;
+}
+#headrightimg_div{
+    width: 62px;
+    /*border: 1px solid black;*/
+    height: 98px;
+    margin-left: 98px;
+    margin-top: -16px;
+}
+#jiantouimg{
+    padding-left: 50px;
+    position: relative;
+    top: -20px;
+    cursor: context-menu;
+}
+#guoqi{
+    list-style-type: none;
+    position: absolute;
+    left: -11px;
+    top: 2px;
+    display: none;
+}
+/*head end*/
+
+/*logo*/
+#logoimg_div{
+    width: 1439px;
+    height: 88px;
+    /*border: 1px solid black;*/
+}
+#logoimg{
+    padding-left: 238px;
+    padding-top: 41px;
+}
+#fukuanImg{
+    width: 503px;
+    height: 19px;
+    padding-left: 88px;
+    cursor: pointer;
+}
+#logoimg_div ul{
+    list-style-type: none;
+    padding-left: 601px;
+    margin-top: -49px;
+}
+#logoimg_div ul li{
+    float: left;
+    padding-right: 63px;
+}
+/*付款*/
+#FK_div{
+    width: 812px;
+    height: 446px;
+    /*border: 1px solid black;*/
+    margin-left: 314px;
+    margin-top: 50px;
+}
+#FKk_div{
+    width: 806px;
+    height: 408px;
+    border: 1px solid rgb(224,224,224);
+    margin-top: 18px;
+}
+#fkStyle_div{
+    width: 536px;
+    height: 55px;
+    /*border: 1px solid black;*/
+    margin-top: 66px;
+    margin-left: 35px;
+}
+#zfb_div{
+    width: 139px;
+    height: 54px;
+    border: 1px solid rgb(224,224,224);
+    margin-left: 20px;
+}
+#weixinzf_div{
+    width: 139px;
+    height: 54px;
+    border: 1px solid rgb(224,224,224);
+    margin-left: 206px;
+    margin-top: -56px;
+}
+#zaixianzf_div{
+    width: 139px;
+    height: 54px;
+    border: 1px solid rgb(224,224,224);
+    margin-left: 391px;
+    margin-top: -56px;
+}
+#wangyin_div{
+    width: 729px;
+    height: 178px;
+    /*border: 1px solid black;*/
+    margin-left: 35px;
+    margin-top: 73px;
+}
+#wwzf_div{
+    width: 722px;
+    height: 124px;
+    /*border: 1px solid black;*/
+    margin-top: 35px;
+}
+#gs{
+    width: 138px;
+    height: 52px;
+    border: 1px solid rgb(224,224,224);
+    margin-left: 20px;
+    position: absolute;
+    top: 458px;
+}
+#ny{
+    width: 138px;
+    height: 52px;
+    border: 1px solid rgb(224,224,224);
+    margin-left: 204px;
+    /*margin-top: -54px;*/
+    position: absolute;
+    top: 458px;
+}
+#zy{
+    width: 138px;
+    height: 52px;
+    border: 1px solid rgb(224,224,224);
+    margin-left: 398px;
+    /*margin-top: -54px;*/
+    position: absolute;
+    top: 458px;
+}
+#jh{
+    width: 138px;
+    height: 52px;
+    border: 1px solid rgb(224,224,224);
+    margin-left: 592px;
+    /*margin-top: -54px;*/
+    position: absolute;
+    top: 458px;
+}
+#zh{
+    width: 138px;
+    height: 52px;
+    border: 1px solid rgb(224,224,224);
+    margin-left: 20px;
+    position: absolute;
+    top: 526px;
+}
+#gd{
+    width: 138px;
+    height: 52px;
+    border: 1px solid rgb(224,224,224);
+    margin-left: 204px;
+    position: absolute;
+    top: 526px;
+}
+#pa{
+    width: 138px;
+    height: 52px;
+    border: 1px solid rgb(224,224,224);
+    margin-left: 400px;
+    position: absolute;
+    top: 526px;
+}
+#zx{
+    width: 138px;
+    height: 52px;
+    border: 1px solid rgb(224,224,224);
+    margin-left: 594px;
+    position: absolute;
+    top: 526px;
+}
+/*end*/
+#end_div{
+    width: 1440px;
+    height: 322px;
+    /*border: 1px solid black;*/
+    margin-top: 71px;
+    background-color: black;
+}
+#end_ul{
+    padding-left: 289px;
+    list-style-type: none;
+    padding-top: 39px;
+}
+#end_ul li{
+    padding-bottom: 15px;
+}
+#end_ul li a{
+    text-decoration: none;
+    color: rgb(71,71,71);
+    font-size: 12px;
+}
+#end_ul1{
+    list-style-type: none;
+    padding-left: 481px;
+    padding-top: -16px;
+    margin-top: -148px;
+}
+#end_ul1 li{
+    padding-bottom: 15px;
+}
+#end_ul1 li a{
+    text-decoration: none;
+    color: rgb(71,71,71);
+    font-size: 12px;
+}
+#end_ul2{
+    list-style-type: none;
+    padding-left: 648px;
+    margin-top: -214px;
+}
+#end_ul2 li{
+    padding-bottom: 15px;
+}
+#end_ul2 li a{
+    text-decoration: none;
+    color: rgb(71,71,71);
+    font-size: 12px;
+}
+#shequ_div{
+    width: 254px;
+    height: 115px;
+    /*border: 1px solid white;*/
+    margin-left: 965px;
+    margin-top: -219px;
+}
+#shequ_div span{
+    color: white;
+    padding-left: 145px;
+    position: relative;
+    top: 29px;
+}
+#endLogo_div{
+    width: 193px;
+    height: 43px;
+    /*border: 1px solid white;*/
+    margin-left: 10px;
+    margin-top: 53px;
+}
+#endLogo_div img{
+    padding-right:20px;
+    cursor: pointer;
+}
+#bottom_div{
+    width:765px;
+    height: 54px;
+    /*border: 1px solid white;*/
+    margin-left: 398px;
+}
+#bottom_div ul{
+    list-style-type: none;
+}
+#bottom_li{
+    float: left;
+    color: rgb(71,71,71);
+    font-size: 12px;
+    padding-left: 60px;
+    margin-top: -30px;
+}
+#bottom_li1{
+    float: left;
+    color: rgb(71,71,71);
+    font-size: 12px;
+    padding-left: 227px;
+    margin-top: -30px;
+}
+#bottom_li2{
+    float: left;
+    color: rgb(71,71,71);
+    font-size: 12px;
+    padding-left: 501px;
+    margin-top: -30px;
+}
