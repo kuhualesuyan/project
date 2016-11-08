@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2016/11/8.
- */
 /*head begin*/
 var headimg1 = document.getElementById("headimg1");
 var headimg2 = document.getElementById("headimg2");

@@ -2,10 +2,9 @@ body{
     padding: 0px;
     margin: 0px;
 }
-#ZDiv{
-    width: 1440px;
-    height: 1080px;
-    /*border: 1px solid black;*/
+#zDIV{
+    width:1440px;
+    height:968px;
 }
 /*head begin*/
 #head_div {
@@ -85,7 +84,6 @@ body{
     display: none;
 }
 /*head end*/
-
 /*logo*/
 #logoimg_div{
     width: 1439px;
@@ -96,7 +94,7 @@ body{
     padding-left: 238px;
     padding-top: 41px;
 }
-#lcImg{
+#paixiaImg{
     width: 503px;
     height: 19px;
     padding-left: 88px;
@@ -111,11 +109,11 @@ body{
     float: left;
     padding-right: 63px;
 }
-/*结算过程*/
-#JieSuan_div{
+/*拍下商品*/
+#PaiXia_div{
     width: 1002px;
-    height: 570px;
-    /*border: 1px solid black;*/
+    height: 407px;
+    border-bottom: 1px solid rgb(218,218,218);
     margin-left: 219px;
     margin-top: 53px;
 }
@@ -125,29 +123,14 @@ body{
     /*border: 1px solid black;*/
     margin-left: 23px;
 }
-.t_div{
-    width: 644px;
-    height: 76px;
-    /*border: 1px solid black;*/
-    background-color: rgb(238,238,238);
-    position: relative;
-    top: -12px;
-}
-.t_div p{
-    color: rgb(120,120,120);
-    font-size: 12px;
-    position: relative;
-    top: 26px;
-    padding-left: 26px;
-}
-.share_div{
+.shouhuo_div{
     width: 644px;
     height: 102px;
     /*border: 1px solid black;*/
     margin-top: 2px;
     background-color: rgb(238,238,238);
 }
-#shoppingCar_div{
+#qrddmsg_div{
     width: 644px;
     height: 61px;
     /*border: 1px solid black;*/
@@ -156,7 +139,7 @@ body{
 }
 #JSMsg_div{
     width: 293px;
-    height: 407px;
+    height: 308px;
     /*border: 1px solid black;*/
     margin-left: 688px;
     margin-top: -277px;
@@ -176,25 +159,25 @@ body{
     width:293px;
     height:43px;
     position: absolute;
-    top: 349px;
+    top: 257px;
 }
 #yunfei_div{
     width:292px;
     height:66px;
     position: absolute;
-    top: 394px;
+    top: 302px;
 }
 #js_div{
     width:292px;
     height:51px;
     position: absolute;
-    top: 462px;
+    top: 369px;
 }
 #jsbtn_div{
     width:291px;
     height: 82px;
     position: absolute;
-    top: 515px;
+    top: 423px;
 }
 #jsbtn_div button{
     width: 253px;
@@ -211,7 +194,7 @@ body{
     height: 168px;
     /*border: 1px solid black;*/
     margin-left: 25px;
-    margin-top: -111px;
+    margin-top: -98px;
 }
 #Img_div{
     width: 165px;
@@ -229,19 +212,13 @@ body{
     margin-left: 188px;
     margin-top: -153px;
 }
-.free_div{
-    width: 293px;
-    height: 111px;
-    border: 1px solid rgb(235,235,235);
-    margin-left: 687px;
-    margin-top: -35px;
-}
+
 /*end*/
 #end_div{
     width: 1440px;
     height: 322px;
-    border: 1px solid black;
-    /*margin-top: -126px;*/
+    /*border: 1px solid black;*/
+    margin-top: 71px;
     background-color: black;
 }
 #end_ul{

@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>结算</title>
-    <script defer src="../javascript/jiesuan.js"></script>
-    <link rel="stylesheet" href="../css/jiesuan.css">
+    <title>拍下商品</title>
+    <script defer src="../javascript/paixiaGoods.js"></script>
+    <link rel="stylesheet" href="../css/paixiaGoods.css">
 </head>
 <body>
-<div id="ZDiv">
+<div id="zDIV">
     <div id="head_div">
         <div id="headimg_div">
             <img src="../images/shouye/headimg1.png" id="headimg1">
@@ -35,30 +35,32 @@
     </div>
     <div id="logoimg_div">
         <img src="../images/shouye/Logo.png" id="logoimg">
-        <img src="../images/jiesuan/liucheng.png" id="lcImg">
+        <img src="../images/paixia/paixia.png" id="paixiaImg">
         <ul>
-            <li style="color:rgb(250,84,0)">查看购物车</li>
-            <li>拍下商品</li>
+            <li>查看购物车</li>
+            <li style="color:rgb(250,84,0)">拍下商品</li>
             <li>付款</li>
             <li>确认收货</li>
             <li>评价</li>
         </ul>
     </div>
-    <div id="JieSuan_div">
+
+    <div id="PaiXia_div">
         <div id="text_div">
-            <div class="t_div">
-                <!--<span>亲爱的顾客,近期有不法分子假冒各大品牌工作人员进行诈骗活动,为了您的账户和财产安全,请勿轻信此类信息,谨防被骗.</span>-->
-                <p>亲爱的顾客,近期有不法分子假冒各大品牌工作人员进行诈骗活动,为了您的账户和财产安全,请勿轻信此类信息,谨防被骗.</p>
+            <div class="shouhuo_div">
+                <b><span
+                        style="color: rgb(54,54,54);font-family: fantasy;padding-left: 26px;position: absolute;top: 203px;">确认收货地址</span></b><br>
+                <input type="checkbox" style="margin-left: 104px;margin-top: 24px;width: 20px;height: 20px;">
+                <b><span
+                        style="color: rgb(54,54,54);position: absolute;top: 236px;left: 374px;font-size: 14px;padding: 0px;">哈尔滨市哈尔滨路哈尔滨区222222号 手机号码:123456789(xxx收)</span></b><br>
+                <span style="color: rgb(54,54,54);position: absolute;top: 267px;left: 376px;font-size: 11px;padding: 0px;">哈尔滨市哈尔滨路哈尔滨区222222号 手机号码:123456789(xxx收)</span>
+                 <a href="#"><span style="color: rgb(0,170,232);font-size: 14px;margin-left: 553px;position: absolute;top: 204px;">管理收货地址</span></a>
+                <a href="#"><span style="color: rgb(0,170,232);font-size: 14px;margin-left: 581px;position: absolute;top: 234px;">默认地址</span></a>
 
             </div>
-            <div class="share_div">
-                <span style="color: rgb(54,54,54);font-family: fantasy;padding-left: 26px;position: absolute;top: 286px;">成为GSIZE会员,享受每笔订单免费配送,和30天无理由退换货。</span><br>
-                <a href="#" style="color: rgb(54,54,54);font-family: fantasy;position: absolute;top: 317px;padding-left: 26px;">加入GSIZE</a><br>
-                <span style="position: absolute;top: 352px;font-size: 13px;color: rgb(169,169,169);padding-left: 26px;">非会员每笔订单需达到399元即可享受免费配送服务.了解详情</span><br>
-            </div>
-            <div id="shoppingCar_div">
-                <span style="color: rgb(54,54,54);padding-left: 26px;position: absolute;top: 404px;font-family: fantasy;">您的购物车
-                    <span>（1）</span></span>
+            <div id="qrddmsg_div">
+                <b><span style="color: rgb(54,54,54);padding-left: 26px;position: absolute;top: 329px;font-family: fantasy;">确认订单信息</span></b>
+
             </div>
         </div>
         <div id="JSMsg_div">
@@ -66,12 +68,6 @@
                 <b><span style="color: white;padding-left: 22px;position: absolute;top: 209px;">小结信息</span></b>
                 <hr style="position: absolute;width: 289px;top: 241px;">
             </div>
-               <div id="sale_div">
-                   <span style="color: white;padding-left: 23px;position: absolute;top: 13px;">是否有促销吗?</span>
-                   <input type="text" style="position: absolute;top: 42px;margin-left: 24px;width: 151px;height: 30px;border-radius: 4px; border: none;outline: none;">
-                   <button style="width: 84px;height: 32px;background-color: white;border: none;position: absolute;margin-left: 183px;top: 42px;border-radius: 4px;outline: none;">确定</button>
-                   <hr style="position: absolute;width: 289px;top: 86px;">
-               </div>
             <div id="spAmount_div">
                 <span style="color: white;padding-left: 24px;position: absolute;top: 10px;">订单商品总额</span>
                 <span style="color: white;padding-left: 204px;position: absolute;top: 10px;">￥1199.00</span>
@@ -100,21 +96,15 @@
                 <span style="color: rgb(127,127,127);">NIKE LEBRON SOLDIER 10 SFG EP <b style="color: black;">男子篮球鞋</b></span>
                 <b><span style="padding-left: 46px;color: rgb(250,84,0);">￥1199.00</span></b>
                 <hr style="margin-top: 0px;">
-                <b>款式#:  <span style="color: rgb(160,158,158);">852400-060</span></b><br>
-                <b>尺寸:  <span style="color: rgb(160,158,158);">EURO 50.5</span></b><br>
-                <b>数量:  <span style="color: rgb(160,158,158);">1@￥1199</span></b><br>
-                <b>Design ID:  <span style="color: rgb(160,158,158);">852400-060</span></b>
-                <button style="width: 136px;height: 29px;border: 1px solid rgb(229,229,229);position: absolute;top: 614px;background-color: rgb(247,247,247);left: 435px;outline: none;">删除</button>
-                <button style="width: 136px;height: 29px;border: 1px solid rgb(229,229,229);position: absolute;top: 614px;background-color: rgb(247,247,247);left: 579px;outline: none;">编辑</button>
-                <input type="checkbox" style="width: 20px;height: 20px;border: none;margin-left: 433px; margin-top: 22px;">
+                <b>款式#: <span style="color: rgb(160,158,158);">852400-060</span></b><br>
+                <b>尺寸: <span style="color: rgb(160,158,158);">EURO 50.5</span></b><br>
+                <b>数量: <span style="color: rgb(160,158,158);">1@￥1199</span></b><br>
+                <b>Design ID: <span style="color: rgb(160,158,158);">852400-060</span></b><br>
+                <b>收货地址: <span style="color: rgb(160,158,158);font-size: 12px;">哈尔滨市哈尔滨路哈尔滨区222222号 手机号码:12345678(xxx收)</span></b>
+               <a href="#"><span style="color: rgb(0,170,232);font-size: 15px;margin-left: -54px;position: absolute;top: 551px;">返回购物车</span></a>
             </div>
         </div>
-        <div class="free_div">
-            <span style="font-size: 17px;color: rgb(158,156,156);padding-left: 33px;position: absolute;top: 643px;">免费配送服务</span>
-            <!--<span style="font-size: 17px;color: rgb(158,156,156);padding-left: 33px;position: relative;top: 47px;">您的订单可享受免费配送服务,不包含礼品卡消费金额</span>-->
-            <p style="font-size: 12px;color: rgb(158,156,156);padding-left: 33px;position: relative;top: 38px;">您的订单可享受免费配送服务,不包含礼品卡消费金额</p>
 
-        </div>
     </div>
 
     <div id="end_div">
