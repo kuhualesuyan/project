@@ -227,7 +227,55 @@ body{
     height: 312px;
     /*border: 1px solid black;*/
 }
-#displayGoods div{
+/*#displayGoods div{*/
+    /*width: 50px;*/
+    /*height: 50px;*/
+    /*border: 1px solid rgb(223,227,229);*/
+    /*background-color: rgb(245,245,245);*/
+    /*margin-bottom: 5px;*/
+    /*cursor: pointer;*/
+/*}*/
+#dis_div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(223,227,229);
+    background-color: rgb(245,245,245);
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#dis1_div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(223,227,229);
+    background-color: rgb(245,245,245);
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#dis2_div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(223,227,229);
+    background-color: rgb(245,245,245);
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#dis3_div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(223,227,229);
+    background-color: rgb(245,245,245);
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#dis4_div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(223,227,229);
+    background-color: rgb(245,245,245);
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#dis5_div{
     width: 50px;
     height: 50px;
     border: 1px solid rgb(223,227,229);
@@ -239,6 +287,7 @@ body{
     padding-left: 3px;
     padding-top: 12px;
 }
+
 #disGoods{
     width: 529px;
     height: 480px;
@@ -284,7 +333,7 @@ body{
 }
 #kuanshi_span{
     font-size: 13px;
-    padding-left: 108px;
+    padding-left: 234px;
     position: absolute;
 }
 #xianshi_div{
@@ -565,7 +614,7 @@ body{
     font-size: 12px;
     color: rgb(78,77,77);
     position: absolute;
-    ttop: 1323px;
+    top: 1323px;
     left: 736px;
 }
 .miaoshu6_span{

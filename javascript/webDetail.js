@@ -104,3 +104,105 @@ sousuoimg.onclick = function(){
   input_div.style.display = "block";
 }
 
+var dis_div = document.getElementById("dis_div");
+var shoesimg = document.getElementById("shoesimg");
+var dis1_div = document.getElementById("dis1_div");
+var shoes1img = document.getElementById("shoes1img");
+var dis2_div = document.getElementById("dis2_div");
+var shoes2img = document.getElementById("shoes2img");
+var dis3_div = document.getElementById("dis3_div");
+var shoes3img = document.getElementById("shoes3img");
+var dis4_div = document.getElementById("dis4_div");
+var shoes4img = document.getElementById("shoes4img");
+var dis5_div = document.getElementById("dis5_div");
+var shoes5img = document.getElementById("shoes5img");
+var shoes6img = document.getElementById("shoes6img");
+shoesimg.onmouseover = function(){
+  dis_div.style.border = "1px solid rgb(0,170,232)";
+  shoes6img.src = "../images/shoes/desShoes.jpg";
+}
+shoesimg.onmouseout = function(){
+  dis_div.style.border = "1px solid rgb(223,227,229)";
+}
+shoes1img.onmouseover = function(){
+  dis1_div.style.border = "1px solid rgb(0,170,232)";
+  shoes6img.src = "../images/shoes/desShoes1.jpg";
+}
+shoes1img.onmouseout = function(){
+  dis1_div.style.border = "1px solid rgb(223,227,229)";
+}
+shoes2img.onmouseover = function(){
+  dis2_div.style.border = "1px solid rgb(0,170,232)";
+  shoes6img.src = "../images/shoes/desShoes2.jpg";
+}
+shoes2img.onmouseout = function(){
+  dis2_div.style.border = "1px solid rgb(223,227,229)";
+}
+shoes3img.onmouseover = function(){
+  dis3_div.style.border = "1px solid rgb(0,170,232)";
+  shoes6img.src = "../images/shoes/desShoes3.jpg";
+}
+shoes3img.onmouseout = function(){
+  dis3_div.style.border = "1px solid rgb(223,227,229)";
+}
+shoes4img.onmouseover = function(){
+  dis4_div.style.border = "1px solid rgb(0,170,232)";
+  shoes6img.src = "../images/shoes/desShoes4.jpg";
+}
+shoes4img.onmouseout = function(){
+  dis4_div.style.border = "1px solid rgb(223,227,229)";
+}
+shoes5img.onmouseover = function(){
+  dis5_div.style.border = "1px solid rgb(0,170,232)";
+  shoes6img.src = "../images/shoes/desShoes5.jpg";
+}
+shoes5img.onmouseout = function(){
+  dis5_div.style.border = "1px solid rgb(223,227,229)";
+}
+var xianshi_shoe1 = document.getElementById("xianshi_shoes1");
+var xianshi_shoe2 = document.getElementById("xianshi_shoes2");
+xianshi_shoe1.onmouseover = function(){
+  xianshi_shoe1.style.border = "1px solid rgb(0,170,232)";
+}
+xianshi_shoe1.onmouseout = function(){
+  xianshi_shoe1.style.border = "1px solid rgb(223,227,229)";
+}
+xianshi_shoe2.onmouseover = function(){
+  xianshi_shoe2.style.border = "1px solid rgb(0,170,232)";
+}
+xianshi_shoe2.onmouseout = function(){
+  xianshi_shoe2.style.border = "1px solid rgb(223,227,229)";
+}
+var qiuxie1 = document.getElementById("qiuxie1_div");
+var qiuxie2 = document.getElementById("qiuxie2_div");
+var qiuxie3 = document.getElementById("qiuxie3_div");
+var qiuxie4 = document.getElementById("qiuxie4_div");
+qiuxie1.onmouseover = function(){
+  qiuxie1.style.border = "1px solid rgb(0,170,232)";
+}
+qiuxie1.onmouseout = function(){
+  qiuxie1.style.border = "1px solid rgb(223,227,229)";
+}
+qiuxie2.onmouseover = function(){
+  qiuxie2.style.border = "1px solid rgb(0,170,232)";
+}
+qiuxie2.onmouseout = function(){
+  qiuxie2.style.border = "1px solid rgb(223,227,229)";
+}
+qiuxie3.onmouseover = function(){
+  qiuxie3.style.border = "1px solid rgb(0,170,232)";
+}
+qiuxie3.onmouseout = function(){
+  qiuxie3.style.border = "1px solid rgb(223,227,229)";
+}
+qiuxie4.onmouseover = function(){
+  qiuxie4.style.border = "1px solid rgb(0,170,232)";
+}
+qiuxie4.onmouseout = function(){
+  qiuxie4.style.border = "1px solid rgb(223,227,229)";
+}
+var dingimg = document.getElementById("dingImg");
+var dingAmount = document.getElementById("dingAmount");
+dingimg.onclick = function(){
+  dingAmount += 1;
+}
