@@ -218,7 +218,7 @@ body{
 #shangpinMsg_div{
     width: 1002px;
     height: 222px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-left: 219px;
 }
 #shangpinMsg_div div{
@@ -235,7 +235,7 @@ body{
 }
 #yjt{
     padding-left: 97px;
-    margin-top: 17px;
+    margin-top: 21px;
 }
 #Brand_span{
     padding-left: 92px;
@@ -295,7 +295,7 @@ body{
     font-size: 13px;
 }
 #Size_span{
-    padding-left: 93px;
+    left: 313px;
     position: absolute;
     top: 469px;
     color: rgb(107,107,107);
@@ -304,26 +304,31 @@ body{
 #size_div li{
     list-style-type: none;
     float: left;
-    /*padding-right: 10px;*/
-    padding-left: 148px;
-    margin-top: 11px;
+    margin-left: 148px;
+    /*padding-right: 77px;*/
+    margin-top: 14px;
 }
 #size_div li a{
     text-decoration: none;
     color:rgb(141,141,141);
     font-size: 13px;
 }
+#size_div img{
+    position: absolute;
+    top: 467px;
+    left: 1201px;
+}
 /*商品列表*/
 #shangpinList_div{
     width: 1002px;
     height: 2248px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-left: 219px;
 }
 #AIRbranch_div{
     width: 1002px;
     height: 88px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 .AIR_span{
     padding-left: 27px;
@@ -348,11 +353,475 @@ body{
     font-size: 13px;
     padding-left: 26px;
     position: absolute;
-    top: 535px;
+    top: 531px;
 }
 #ArrMode_div img{
     padding-left: 85px;
     margin-top: 13px;
+}
+
+/*display shoes*/
+#disShoes_div{
+    width: 1002px;
+    height: 2164px;
+    /*border: 1px solid black;*/
+}
+#shoes1_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 29px;
+}
+#shoes1_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes2_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 275px;
+    margin-top: -303px;
+}
+#shoes2_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes3_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 521px;
+    margin-top: -303px;
+}
+#shoes3_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes4_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 767px;
+    margin-top: -303px;
+}
+#shoes4_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes5_div{
+     width: 220px;
+     height: 217px;
+    border: 1px solid rgb(221,226,228);
+     margin-left: 767px;
+    margin-top: 51px;
+ }
+#shoes5_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes6_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 521px;
+    margin-top: -303px;
+}
+#shoes6_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes7_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 275px;
+    margin-top: -303px;
+}
+#shoes7_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes8_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 29px;
+    margin-top: -303px;
+}
+#shoes8_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes9_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 29px;
+    margin-top: 51px;
+}
+#shoes9_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes10_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 275px;
+    margin-top: -303px;
+}
+#shoes10_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes11_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 521px;
+    margin-top: -303px;
+}
+#shoes11_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes12_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 767px;
+    margin-top: -303px;
+}
+#shoes12_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes13_div{
+     width: 220px;
+     height: 217px;
+    border: 1px solid rgb(221,226,228);
+     margin-left: 767px;
+    margin-top: 51px;
+}
+
+#shoes13_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes14_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 521px;
+    margin-top: -303px;
+}
+#shoes14_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes15_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 275px;
+    margin-top: -303px;
+}
+#shoes15_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes16_div{
+     width: 220px;
+     height: 217px;
+    border: 1px solid rgb(221,226,228);
+     margin-left: 29px;
+    margin-top: -303px;
+ }
+#shoes16_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes17_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 29px;
+    margin-top: 51px;
+}
+#shoes17_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes18_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 275px;
+    margin-top: -303px;
+}
+#shoes18_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes19_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 521px;
+    margin-top: -303px;
+}
+#shoes19_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes20_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 767px;
+    margin-top: -303px;
+}
+#shoes20_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes21_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 767px;
+    margin-top: 51px;
+}
+#shoes21_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes22_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 521px;
+    margin-top: -303px;
+}
+#shoes22_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes23_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 275px;
+    margin-top: -303px;
+}
+#shoes23_div img{
+    width: 220px;
+    height: 217px;
+}
+#shoes24_div{
+    width: 220px;
+    height: 217px;
+    border: 1px solid rgb(221,226,228);
+    margin-left: 29px;
+    margin-top: -303px;
+}
+#shoes24_div img{
+    width: 220px;
+    height: 217px;
+}
+
+/*shoes des*/
+#des_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 29px;
+    margin-top: 17px;
+}
+#des1_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 275px;
+    margin-top: 17px;
+}
+#des2_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 521px;
+    margin-top: 17px;
+}
+#des3_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 768px;
+    margin-top: 17px;
+}
+#des4_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 768px;
+    margin-top: 17px;
+}
+#des5_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 522px;
+    margin-top: 17px;
+}
+#des6_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 275px;
+    margin-top: 17px;
+}
+#des7_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 29px;
+    margin-top: 17px;
+}
+#des8_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 29px;
+    margin-top: 17px;
+}
+#des9_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 275px;
+    margin-top: 17px;
+}
+#des10_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 521px;
+    margin-top: 17px;
+}
+#des11_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 767px;
+    margin-top: 17px;
+}
+#des12_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 767px;
+    margin-top: 17px;
+}
+#des13_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 521px;
+    margin-top: 17px;
+}
+#des14_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 275px;
+    margin-top: 17px;
+}
+#des15_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 29px;
+    margin-top: 17px;
+}
+#des16_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 29px;
+    margin-top: 17px;
+}
+#des17_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 275px;
+    margin-top: 17px;
+}
+#des18_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 521px;
+    margin-top: 17px;
+}
+#des19_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 767px;
+    margin-top: 17px;
+}
+#des20_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 767px;
+    margin-top: 17px;
+}
+#des21_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 521px;
+    margin-top: 17px;
+}
+#des22_div{
+     width: 220px;
+     height: 65px;
+     /*border: 1px solid black;*/
+     margin-left: 275px;
+     margin-top: 17px;
+ }
+#des23_div{
+    width: 220px;
+    height: 65px;
+    /*border: 1px solid black;*/
+    margin-left: 29px;
+    margin-top: 17px;
+}
+/*页数*/
+#yeshu_div{
+    width: 220px;
+    height: 33px;
+    /*border: 1px solid black;*/
+    margin-left: 758px;
+    margin-top: 49px;
+}
+#shangyiye{
+    width: 91px;
+    height: 29px;
+    border: 1px solid black;
+    margin-left: 37px;
+    cursor: pointer;
+}
+#xiayiye{
+    width: 91px;
+    height: 29px;
+    border: 1px solid black;
+    margin-left: 133px;
+    margin-top: -31px;
+    cursor: pointer;
 }
 /*end*/
 #end_div{
