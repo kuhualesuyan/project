@@ -24,6 +24,7 @@
     position: relative;
     top: 16px;
     font-size: 25px;
+    font-family: 微软雅黑;
 }
 #zcLogoimg{
     width: 179px;
@@ -120,12 +121,14 @@
     position: relative;
     top: -2px;
     left: -7px;
+    font-family: 微软雅黑;
 }
 #zcItem_span1{
-    font-size: 13px;
+    font-size: 12px;
     color: rgb(126,122,122);
     position: relative;
     top: 26px;
+    font-family: 微软雅黑;
 }
 #btn_div{
     width: 379px;
@@ -139,8 +142,9 @@
 #btn_div span{
     color: white;
     position: relative;
-    top: 11px;
+    top: 8px;
     left: 161px;
+    font-family: 微软雅黑;
 }
 #zcEnd_div{
     width: 127px;
@@ -153,4 +157,5 @@
     font-size: 13px;
     position: absolute;
     color: rgb(126,122,122);
+    font-family: 微软雅黑;
 }

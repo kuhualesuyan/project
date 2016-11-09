@@ -71,11 +71,13 @@ body{
     color: gray;
     font-size: 13px;
     cursor: pointer;
+    font-family: 微软雅黑;
 }
 #dl_span{
     color: gray;
     font-size: 13px;
     cursor: pointer;
+    font-family: 微软雅黑;
 }
 #span_div{
     width: 86px;
@@ -130,6 +132,7 @@ body{
 #title_div ul li a{
     text-decoration: none;
     color: black;
+    font-family: 微软雅黑;
 }
 #title_div ul li a:hover{
     color:rgb(0,170,232);
@@ -196,6 +199,7 @@ body{
     list-style-type: none;
     position: relative;
     left: -39px;
+    top: -10px;
     /*display: none;*/
 }
 #menu_div ul li{
@@ -205,6 +209,8 @@ body{
 #menu_div ul li a{
     text-decoration: none;
     color: gray;
+    font-family: 微软雅黑;
+    font-size: 13px;
 }
 #menu_div ul li a:hover{
     color:rgb(0,170,232);
@@ -247,6 +253,8 @@ body{
     position: absolute;
     top: 291px;
     color: rgb(107,107,107);
+    font-family: 微软雅黑;
+
 }
 #yjt{
     padding-left: 97px;
@@ -258,18 +266,20 @@ body{
     top: 336px;
     color: rgb(107,107,107);
     font-size: 14px;
+    font-family: 微软雅黑;
 }
 #brand_div li{
     list-style-type: none;
     float: left;
     padding-right: 10px;
     padding-left: 148px;
-    margin-top: 11px;
+    margin-top: 16px;
 }
 #brand_div li a{
     text-decoration: none;
     color:rgb(141,141,141);
     font-size: 13px;
+    font-family: 微软雅黑;
 }
 #brand_div li a:hover{
     color:rgb(0,170,232);
@@ -280,18 +290,20 @@ body{
     top: 381px;
     color: rgb(107,107,107);
     font-size: 14px;
+    font-family: 微软雅黑;
 }
 #class_div li{
     list-style-type: none;
     float: left;
     padding-right: 10px;
     padding-left: 148px;
-    margin-top: 11px;
+    margin-top: 17px;
 }
 #class_div li a{
     text-decoration: none;
     color:rgb(141,141,141);
     font-size: 13px;
+    font-family: 微软雅黑;
 }
 #class_div li a:hover{
     color:rgb(0,170,232);
@@ -302,18 +314,20 @@ body{
     top: 426px;
     color: rgb(107,107,107);
     font-size: 14px;
+    font-family: 微软雅黑;
 }
 #appobj_div li{
     list-style-type: none;
     float: left;
     padding-right: 10px;
     padding-left: 148px;
-    margin-top: 11px;
+    margin-top: 17px;
 }
 #appobj_div li a{
     text-decoration: none;
     color:rgb(141,141,141);
     font-size: 13px;
+    font-family: 微软雅黑;
 }
 #appobj_div li a:hover{
     color:rgb(0,170,232);
@@ -324,26 +338,28 @@ body{
     top: 469px;
     color: rgb(107,107,107);
     font-size: 14px;
+    font-family: 微软雅黑;
 }
 #size_div li{
     list-style-type: none;
     float: left;
     margin-left: 148px;
     /*padding-right: 77px;*/
-    margin-top: 14px;
+    margin-top: 17px;
 }
 #size_div li a{
     text-decoration: none;
     color:rgb(141,141,141);
     font-size: 13px;
+    font-family: 微软雅黑;
 }
 #size_div li a:hover{
     color:rgb(0,170,232);
 }
 #size_div img{
     position: absolute;
-    top: 467px;
-    left: 1201px;
+    top: 469px;
+    left: 1206px;
 }
 /*商品列表*/
 #shangpinList_div{
@@ -361,13 +377,14 @@ body{
     padding-left: 27px;
     position: absolute;
     top: 533px;
-    font-family: -webkit-pictograph;
+    font-family: 微软雅黑;
 }
 #num_span{
     color: rgb(183,183,183);
     padding-left: 139px;
     position: absolute;
     top: 532px;
+    font-family: 微软雅黑;
 }
 #ArrMode_div{
     width: 127px;
@@ -381,10 +398,11 @@ body{
     padding-left: 26px;
     position: absolute;
     top: 531px;
+    font-family: 微软雅黑;
 }
 #ArrMode_div img{
     padding-left: 85px;
-    margin-top: 13px;
+    margin-top: 15px;
 }
 
 /*display shoes*/
@@ -875,17 +893,18 @@ body{
     cursor: pointer;
 }
 /*end*/
+/*end*/
 #end_div{
     width: 1440px;
-    height: 322px;
+    height: 430px;
     border: 1px solid black;
-    /*margin-top: -126px;*/
+    /*margin-top: 65px;*/
     background-color: black;
 }
 #end_ul{
     padding-left: 289px;
     list-style-type: none;
-    padding-top: 39px;
+    padding-top: 146px;
 }
 #end_ul li{
     padding-bottom: 15px;
@@ -894,6 +913,7 @@ body{
     text-decoration: none;
     color: rgb(71,71,71);
     font-size: 12px;
+    font-family: 微软雅黑;
 }
 #end_ul1{
     list-style-type: none;
@@ -908,6 +928,7 @@ body{
     text-decoration: none;
     color: rgb(71,71,71);
     font-size: 12px;
+    font-family: 微软雅黑;
 }
 #end_ul2{
     list-style-type: none;
@@ -921,6 +942,7 @@ body{
     text-decoration: none;
     color: rgb(71,71,71);
     font-size: 12px;
+    font-family: 微软雅黑;
 }
 #shequ_div{
     width: 254px;
@@ -934,6 +956,7 @@ body{
     padding-left: 145px;
     position: relative;
     top: 29px;
+    font-family: 微软雅黑;
 }
 #endLogo_div{
     width: 193px;
@@ -967,12 +990,14 @@ body{
     color: rgb(71,71,71);
     font-size: 12px;
     padding-left: 227px;
-    margin-top: -30px;
+    margin-top: -32px;
+    font-family: 微软雅黑;
 }
 #bottom_li2{
     float: left;
     color: rgb(71,71,71);
     font-size: 12px;
     padding-left: 501px;
-    margin-top: -30px;
+    margin-top: -32px;
+    font-family: 微软雅黑;
 }

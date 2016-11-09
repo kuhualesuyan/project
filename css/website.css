@@ -74,11 +74,13 @@ a{
     color: gray;
     font-size: 13px;
     cursor: pointer;
+    font-family: 微软雅黑;
 }
 #dl_span{
     color: gray;
     font-size: 13px;
     cursor: pointer;
+    font-family: 微软雅黑;
 }
 #span_div{
     width: 86px;
@@ -129,6 +131,7 @@ a{
 #title_div ul li a{
     text-decoration: none;
     color: black;
+    font-family: 微软雅黑;
 }
 #title_div ul li a:hover{
     color:rgb(0,170,232);
@@ -193,6 +196,7 @@ a{
     list-style-type: none;
     position: relative;
     left: -39px;
+    top: -9px;
     /*display: none;*/
 }
 #menu_div ul li{
@@ -202,6 +206,8 @@ a{
 #menu_div ul li a{
     text-decoration: none;
     color: gray;
+    font-family: 微软雅黑;
+    font-size: 14px;
 }
 #menu_div ul li a:hover{
     color:rgb(0,170,232);
@@ -223,9 +229,10 @@ a{
 #input_div span{
     color: white;
     position: absolute;
-    top: 244px;
+    top: 242px;
     left: 284px;
     font-size: 13px;
+    font-family: 微软雅黑;
 }
 #xianshi_div{
     width: 1002px;
@@ -249,9 +256,10 @@ a{
     color: white;
 }
 #text_div p{
-    font-size: 18px;
+    font-size: 16px;
     position: relative;
     top: -16px;
+    font-family: 微软雅黑;
 }
 #goumai_div{
     width: 224px;
@@ -268,7 +276,8 @@ a{
     color: white;
     position: relative;
     left: 76px;
-    top: 12px;
+    top: 10px;
+    font-family: 微软雅黑;
 }
 #goumai1_div{
     width: 224px;
@@ -280,13 +289,15 @@ a{
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
-    /*display: none;*/
+    display: none;
 }
+
 #goumai1_div span{
     color: white;
     position: relative;
     left: 76px;
-    top: 12px;
+    top: 10px;
+    font-family: 微软雅黑;
 }
 #goumai2_div{
     width: 224px;
@@ -298,13 +309,14 @@ a{
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
-    /*display: none;*/
+    display: none;
 }
 #goumai2_div span{
     color: white;
     position: relative;
     left: 76px;
-    top: 12px;
+    top: 10px;
+    font-family: 微软雅黑;
 }
 #goumai3_div{
     width: 224px;
@@ -316,13 +328,14 @@ a{
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
-    /*display: none;*/
+    display: none;
 }
 #goumai3_div span{
     color: white;
-    position: relative;
+    position: absolute;
     left: 76px;
-    top: 12px;
+    top: 10px;
+    font-family: 微软雅黑;
 }
 #goumai4_div{
     width: 224px;
@@ -334,13 +347,14 @@ a{
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
-    /*display: none;*/
+    display: none;
 }
 #goumai4_div span{
     color: white;
     position: relative;
     left: 76px;
-    top: 12px;
+    top: 10px;
+    font-family: 微软雅黑;
 }
 #goumai5_div{
     width: 224px;
@@ -352,13 +366,14 @@ a{
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
-    /*display: none;*/
+    display: none;
 }
 #goumai5_div span{
     color: white;
     position: relative;
     left: 76px;
-    top: 12px;
+    top: 10px;
+    font-family: 微软雅黑;
 }
 #goumai6_div{
     width: 224px;
@@ -370,12 +385,14 @@ a{
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
+    display: none;
 }
 #goumai6_div span{
     color: white;
     position: relative;
     left: 76px;
-    top: 12px;
+    top: 10px;
+    font-family: 微软雅黑;
 }
 #shouye_div{
     width: 1002px;
@@ -399,7 +416,7 @@ a{
     background-color: pink;
     position: absolute;
     border: 1px solid black;
-    top: 855px;
+    top: 857px;
     opacity: 0.5;
     display: none;
 }
@@ -498,6 +515,7 @@ a{
     text-decoration: none;
     color: rgb(71,71,71);
     font-size: 12px;
+    font-family: 微软雅黑;
 }
 #end_ul1{
      list-style-type: none;
@@ -512,6 +530,7 @@ a{
     text-decoration: none;
     color: rgb(71,71,71);
     font-size: 12px;
+    font-family: 微软雅黑;
 }
 #end_ul2{
     list-style-type: none;
@@ -525,6 +544,7 @@ a{
     text-decoration: none;
     color: rgb(71,71,71);
     font-size: 12px;
+    font-family: 微软雅黑;
 }
 #shequ_div{
     width: 254px;
@@ -538,6 +558,7 @@ a{
     padding-left: 145px;
     position: relative;
     top: 29px;
+    font-family: 微软雅黑;
 }
 #endLogo_div{
     width: 193px;
@@ -571,14 +592,16 @@ a{
     color: rgb(71,71,71);
     font-size: 12px;
     padding-left: 227px;
-    margin-top: -30px;
+    margin-top: -32px;
+    font-family: 微软雅黑;
 }
 #bottom_li2{
     float: left;
     color: rgb(71,71,71);
     font-size: 12px;
     padding-left: 501px;
-    margin-top: -30px;
+    margin-top: -32px;
+    font-family: 微软雅黑;
 }
 .mdiv{
     /*border: 1px solid white;*/

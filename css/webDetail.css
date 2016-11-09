@@ -62,11 +62,13 @@ body{
     color: gray;
     font-size: 13px;
     cursor: pointer;
+    font-family: 微软雅黑;
 }
 #dl_span{
     color: gray;
     font-size: 13px;
     cursor: pointer;
+    font-family: 微软雅黑;
 }
 #span_div{
     width: 86px;
@@ -122,6 +124,7 @@ body{
 #title_div ul li a{
     text-decoration: none;
     color: black;
+    font-family: 微软雅黑;
 }
 #title_div ul li a:hover{
     color:rgb(0,170,232);
@@ -188,6 +191,7 @@ body{
     list-style-type: none;
     position: relative;
     left: -39px;
+    top: -9px;
     /*display: none;*/
 }
 #menu_div ul li{
@@ -197,6 +201,8 @@ body{
 #menu_div ul li a{
     text-decoration: none;
     color: gray;
+    font-family: 微软雅黑;
+    font-size: 14px;
 }
 #menu_div ul li a:hover{
     color:rgb(0,170,232);
@@ -316,17 +322,19 @@ body{
     margin-top: -473px;
 }
 #detailGoods_span{
-    font-family: cursive;
+    font-family: 微软雅黑;
     font-size: 18px;
 }
 #detailGoods1_span{
     font-size: 13px;
     color: rgb(203,202,206);
+    font-family: 微软雅黑;
 }
 #pingjia_href{
     font-size: 13px;
     color: rgb(84,84,84);
     padding-left: 210px;
+    font-family: 微软雅黑;
 }
 #detailGoods ul{
     list-style-type: none;
@@ -336,11 +344,13 @@ body{
     float: left;
     font-size: 13px;
     color: rgb(84,84,84);
+    font-family: 微软雅黑;
 }
 #kuanshi_span{
     font-size: 13px;
     padding-left: 109px;
     position: absolute;
+    font-family: 微软雅黑;
 }
 #xianshi_div{
     width: 103px;
@@ -380,6 +390,7 @@ body{
     margin-left: -123px;
     position: absolute;
     top: 513px;
+    font-family: 微软雅黑;
 }
 #size_div{
     width: 89px;
@@ -396,6 +407,7 @@ body{
     padding-left: 24px;
     position: absolute;
     top: 8px;
+    font-family: 微软雅黑;
 }
 #size_div img{
     padding-left: 56px;
@@ -417,6 +429,7 @@ body{
     padding-left: 24px;
     position: absolute;
     top: 8px;
+    font-family: 微软雅黑;
 }
 #amount_div img{
     padding-left: 56px;
@@ -438,7 +451,8 @@ body{
     color: white;
     padding-left: 32px;
     position: absolute;
-    top: 9px;
+    top: 6px;
+    font-family: 微软雅黑;
 }
 #detailGoods2_span{
     font-size: 14px;
@@ -447,6 +461,7 @@ body{
     left: 1166px;
     color: rgb(84,84,84);
     cursor: pointer;
+    font-family: 微软雅黑;
 }
 #detailGoods3_span{
      font-size: 12px;
@@ -454,6 +469,7 @@ body{
      position: absolute;
      top: 624px;
      left: 872px;
+    font-family: 微软雅黑;
  }
 #detail_href{
     font-size: 13px;
@@ -461,6 +477,7 @@ body{
     position: absolute;
     top: 624px;
     left: 1124px;
+    font-family: 微软雅黑;
 }
 /*maybe you like */
 #like_div{
@@ -481,6 +498,7 @@ body{
 }
 #likeText_div span{
     font-size: 37px;
+    font-family: 微软雅黑;
 }
 #type{
     width: 1002px;
@@ -555,6 +573,7 @@ body{
     /*border: 1px solid black;*/
     margin-left: 501px;
     margin-top: -66px;
+
 }
 #color4_div{
     width: 218px;
@@ -568,6 +587,7 @@ body{
     position: absolute;
     top: 1286px;
     left: 256px;
+    font-family: 微软雅黑;
 }
 .miaoshu1_span{
     font-size: 12px;
@@ -575,12 +595,14 @@ body{
     position: absolute;
     top: 1305px;
     left: 257px;
+    font-family: 微软雅黑;
 }
 .miaoshu2_span{
     font-size: 15px;
     position: absolute;
     top: 1286px;
     left: 496px;
+    font-family: 微软雅黑;
 }
 .miaoshu3_span{
     font-size: 12px;
@@ -588,6 +610,7 @@ body{
     position: absolute;
     top: 1305px;
     left: 496px;
+    font-family: 微软雅黑;
 }
 .price_span{
     font-size: 12px;
@@ -595,6 +618,7 @@ body{
     position: absolute;
     top: 1323px;
     left: 258px;
+    font-family: 微软雅黑;
 }
 .price1_span{
     font-size: 12px;
@@ -602,12 +626,14 @@ body{
     position: absolute;
     top: 1323px;
     left: 496px;
+    font-family: 微软雅黑;
 }
 .miaoshu4_span{
     font-size: 15px;
     position: absolute;
     top: 1286px;
     left: 736px;
+    font-family: 微软雅黑;
 }
 .miaoshu5_span{
     font-size: 12px;
@@ -615,6 +641,7 @@ body{
     position: absolute;
     top: 1305px;
     left: 736px;
+    font-family: 微软雅黑;
 }
 .price2_span{
     font-size: 12px;
@@ -622,12 +649,14 @@ body{
     position: absolute;
     top: 1323px;
     left: 736px;
+    font-family: 微软雅黑;
 }
 .miaoshu6_span{
     font-size: 15px;
     position: absolute;
     top: 1286px;
     left: 976px;
+    font-family: 微软雅黑;
 }
 .miaoshu7_span{
     font-size: 12px;
@@ -635,6 +664,7 @@ body{
     position: absolute;
     top: 1305px;
     left: 976px;
+    font-family: 微软雅黑;
 }
 .price3_span{
     font-size: 12px;
@@ -642,6 +672,7 @@ body{
     position: absolute;
     top: 1323px;
     left: 976px;
+    font-family: 微软雅黑;
 }
 #xijie_div{
     width: 1002px;
@@ -684,6 +715,7 @@ body{
 #worddes_div span{
     font-size: 13px;
     color: rgb(176,176,176);
+    font-family: 微软雅黑;
 }
 #qitades_div{
     width: 487px;
@@ -693,6 +725,7 @@ body{
 }
 #word span{
     font-size: 39px;
+  font-family: 微软雅黑;
 }
 #pinglun_div{
     width: 1002px;
@@ -725,6 +758,7 @@ body{
     position: absolute;
     top: 2253px;
     cursor: pointer;
+    font-family: 微软雅黑;
 }
 #shushidu_div{
     width: 729px;
@@ -736,6 +770,7 @@ body{
 #ShuShiDu_span{
     position: relative;
     top: 13px;
+    font-family: 微软雅黑;
 }
 #shushiduImg{
     position: relative;
@@ -747,6 +782,7 @@ body{
     position: relative;
     left: -255px;
     top: -7px;
+    font-family: 微软雅黑;
 }
 #shushi_span{
     font-size: 13px;
@@ -754,10 +790,12 @@ body{
     position: relative;
     left: -91px;
     top: -7px;
+    font-family: 微软雅黑;
 }
 #TieHeDu_span{
     position: relative;
     top: 10px;
+    font-family: 微软雅黑;
 }
 #tieheduImg{
     position: relative;
@@ -767,8 +805,9 @@ body{
     font-size: 13px;
     color: rgb(187,183,183);
     position: relative;
-    left: 470px;
-    top: -27px;
+    left: -249px;
+    top: -9px;
+    font-family: 微软雅黑;
 }
 #kuan_span{
     font-size: 13px;
@@ -776,6 +815,7 @@ body{
     position: relative;
     left: 669px;
     top: -27px;
+    font-family: 微软雅黑;
 }
 #disPingLun_div{
     width: 608px;
@@ -788,30 +828,35 @@ body{
     position: relative;
     top: 10px;
     font-size: 18px;
+    font-family: 微软雅黑;
 }
 #pinglunId{
     position: relative;
     top: 15px;
     color: rgb(141,141,141);
     font-size: 14px;
+    font-family: 微软雅黑;
 }
 #plMsg1{
     position: relative;
     top: 31px;
     font-size: 14px;
     color: rgb(141,141,141);
+    font-family: 微软雅黑;
 }
 #plMsg2{
     position: relative;
     top: 48px;
     font-size: 14px;
     color: rgb(141,141,141);
+    font-family: 微软雅黑;
 }
 #plneirong{
     position: relative;
     top: 77px;
     font-size: 14px;
     color: rgb(141,141,141);
+    font-family: 微软雅黑;
 }
 #dianjipinglun_div{
     width: 295px;
@@ -834,7 +879,8 @@ body{
     color: white;
     padding-left: 12px;
     position: relative;
-    top: 5px;
+    top: 3px;
+    font-family: 微软雅黑;
 }
 #ding_div{
     width: 68px;
@@ -857,6 +903,7 @@ body{
     left: 11px;
     top: 5px;
     color: rgb(172,172,172);
+    font-family: 微软雅黑;
 }
 #cai_div{
     width: 68px;
@@ -879,6 +926,7 @@ body{
     left: 11px;
     top: 5px;
     color: rgb(172,172,172);
+    font-family: 微软雅黑;
 }
 #tuijian_span{
     color: rgb(202,201,201);
@@ -886,6 +934,7 @@ body{
     padding-left: 10px;
     position: absolute;
     top: 2209px;
+    font-family: 微软雅黑;
 }
 #qi_div{
     width: 34px;
@@ -904,15 +953,15 @@ body{
 /*end*/
 #end_div{
     width: 1440px;
-    height: 322px;
+    height: 430px;
     border: 1px solid black;
-    /*margin-top: -126px;*/
+    margin-top: -126px;
     background-color: black;
 }
 #end_ul{
     padding-left: 289px;
     list-style-type: none;
-    padding-top: 39px;
+    padding-top: 146px;
 }
 #end_ul li{
     padding-bottom: 15px;
@@ -921,6 +970,7 @@ body{
     text-decoration: none;
     color: rgb(71,71,71);
     font-size: 12px;
+    font-family: 微软雅黑;
 }
 #end_ul1{
     list-style-type: none;
@@ -935,6 +985,7 @@ body{
     text-decoration: none;
     color: rgb(71,71,71);
     font-size: 12px;
+    font-family: 微软雅黑;
 }
 #end_ul2{
     list-style-type: none;
@@ -948,6 +999,7 @@ body{
     text-decoration: none;
     color: rgb(71,71,71);
     font-size: 12px;
+    font-family: 微软雅黑;
 }
 #shequ_div{
     width: 254px;
@@ -961,6 +1013,7 @@ body{
     padding-left: 145px;
     position: relative;
     top: 29px;
+    font-family: 微软雅黑;
 }
 #endLogo_div{
     width: 193px;
@@ -994,12 +1047,14 @@ body{
     color: rgb(71,71,71);
     font-size: 12px;
     padding-left: 227px;
-    margin-top: -30px;
+    margin-top: -32px;
+    font-family: 微软雅黑;
 }
 #bottom_li2{
     float: left;
     color: rgb(71,71,71);
     font-size: 12px;
     padding-left: 501px;
-    margin-top: -30px;
+    margin-top: -32px;
+    font-family: 微软雅黑;
 }

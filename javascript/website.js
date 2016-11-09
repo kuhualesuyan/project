@@ -116,9 +116,11 @@ var shouye2 = document.getElementById("shouye2");
 var opacity1 = document.getElementById("opacity1");
 shouye2.onmouseover = function(){
   opacity1.style.display = "block";
+  goumai1_div.style.display = "block";
 }
-shouye2.onmouseout = function(){
+opacity1.onmouseout = function(){
   opacity1.style.display = "none";
+  goumai1_div.style.display = "none";
 }
 var goumai2_div = document.getElementById("goumai2_div");
 goumai2_div.onclick = function(){
@@ -128,9 +130,11 @@ var shouye3 = document.getElementById("shouye3");
 var opacity2 = document.getElementById("opacity2");
 shouye3.onmouseover = function(){
   opacity2.style.display = "block";
+  goumai2_div.style.display = "block";
 }
-shouye3.onmouseout = function(){
+opacity2.onmouseout = function(){
   opacity2.style.display = "none";
+  goumai2_div.style.display = "none";
 }
 var goumai3_div = document.getElementById("goumai3_div");
 goumai3_div.onclick = function(){
@@ -140,9 +144,11 @@ var shouye4 = document.getElementById("shouye4");
 var opacity3 = document.getElementById("opacity3");
 shouye4.onmouseover = function(){
   opacity3.style.display = "block";
+  goumai3_div.style.display = "block";
 }
-shouye4.onmouseout = function(){
+opacity3.onmouseout = function(){
   opacity3.style.display = "none";
+  goumai3_div.style.display = "none";
 }
 var goumai4_div = document.getElementById("goumai4_div");
 goumai4_div.onclick = function(){
@@ -152,9 +158,11 @@ var shouye5 = document.getElementById("shouye5");
 var opacity4 = document.getElementById("opacity4");
 shouye5.onmouseover = function(){
   opacity4.style.display = "block";
+  goumai4_div.style.display = "block";
 }
-shouye5.onmouseout = function(){
+opacity4.onmouseout = function(){
   opacity4.style.display = "none";
+  goumai4_div.style.display = "none";
 }
 var goumai5_div = document.getElementById("goumai5_div");
 goumai5_div.onclick = function(){
@@ -164,9 +172,11 @@ var shouye6 = document.getElementById("shouye6");
 var opacity5 = document.getElementById("opacity5");
 shouye6.onmouseover = function(){
   opacity5.style.display = "block";
+  goumai5_div.style.display = "block";
 }
-shouye6.onmouseout = function(){
+opacity5.onmouseout = function(){
   opacity5.style.display = "none";
+  goumai5_div.style.display = "none";
 }
 var goumai6_div = document.getElementById("goumai6_div");
 goumai6_div.onclick = function(){
@@ -176,9 +186,11 @@ var shouye7 = document.getElementById("shouye7");
 var opacity6 = document.getElementById("opacity6");
 shouye7.onmouseover = function(){
   opacity6.style.display = "block";
+  goumai6_div.style.display = "block";
 }
-shouye7.onmouseout = function(){
+opacity6.onmouseout = function(){
   opacity6.style.display = "none";
+  goumai6_div.style.display = "none";
 }
 
 var ziDong;
