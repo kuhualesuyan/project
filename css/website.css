@@ -65,7 +65,7 @@ a{
 #guoqi{
     list-style-type: none;
     position: absolute;
-    left: -11px;
+    left: -40px;
     top: 2px;
     display: none;
 }
@@ -94,9 +94,10 @@ a{
     margin-top: -16px;
 }
 #jiantouimg{
-    padding-left: 50px;
-    position: relative;
-    top: -20px;
+   /* padding-left: 50px;*/
+    position: absolute;
+    top: 14px;
+    left: 1143px;
     cursor: context-menu;
     /*width: 0px;*/
     /*height: 0px;*/

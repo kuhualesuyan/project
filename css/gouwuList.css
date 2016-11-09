@@ -22,12 +22,14 @@ body{
     height: 46px;
     border-bottom: 1px solid gray;
 }
+
 #headimg_div {
     width: 154px;
     height: 46px;
     /*border: 1px solid black;*/
     margin-left: 244px;
 }
+
 #headimg1 {
     padding-top: 14px;
     cursor: pointer;
@@ -49,6 +51,7 @@ body{
     width: 25px;
     height: 18px;
 }
+
 #headright_div{
     width: 161px;
     height: 46px;
@@ -56,11 +59,12 @@ body{
     margin-left: 1017px;
     margin-top: -47px;
 }
-#span_div{
-    width: 86px;
-    height: 16px;
-    /*border: 1px solid black;*/
-    margin-top: 14px;
+#guoqi{
+    list-style-type: none;
+    position: absolute;
+    left: -40px;
+    top: 2px;
+    display: none;
 }
 #zc_span{
     margin-left: -9px;
@@ -73,6 +77,12 @@ body{
     font-size: 13px;
     cursor: pointer;
 }
+#span_div{
+    width: 86px;
+    height: 16px;
+    /*border: 1px solid black;*/
+    margin-top: 14px;
+}
 #headrightimg_div{
     width: 62px;
     /*border: 1px solid black;*/
@@ -81,17 +91,13 @@ body{
     margin-top: -16px;
 }
 #jiantouimg{
-    padding-left: 50px;
-    position: relative;
-    top: -20px;
-    cursor: context-menu;
-}
-#guoqi{
-    list-style-type: none;
+    /* padding-left: 50px;*/
     position: absolute;
-    left: -11px;
-    top: 2px;
-    display: none;
+    top: 14px;
+    left: 1143px;
+    cursor: context-menu;
+    /*width: 0px;*/
+    /*height: 0px;*/
 }
 /*head end*/
 
@@ -392,6 +398,7 @@ body{
     height: 217px;
     border: 1px solid rgb(221,226,228);
     margin-left: 29px;
+    cursor: pointer;
 }
 #shoes1_div img{
     width: 220px;
@@ -403,6 +410,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 275px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes2_div img{
     width: 220px;
@@ -414,6 +422,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 521px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes3_div img{
     width: 220px;
@@ -425,6 +434,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 767px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes4_div img{
     width: 220px;
@@ -436,6 +446,7 @@ body{
     border: 1px solid rgb(221,226,228);
      margin-left: 767px;
     margin-top: 51px;
+    cursor: pointer;
  }
 #shoes5_div img{
     width: 220px;
@@ -447,6 +458,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 521px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes6_div img{
     width: 220px;
@@ -458,6 +470,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 275px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes7_div img{
     width: 220px;
@@ -469,6 +482,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 29px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes8_div img{
     width: 220px;
@@ -480,6 +494,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 29px;
     margin-top: 51px;
+    cursor: pointer;
 }
 #shoes9_div img{
     width: 220px;
@@ -491,6 +506,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 275px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes10_div img{
     width: 220px;
@@ -502,6 +518,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 521px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes11_div img{
     width: 220px;
@@ -513,6 +530,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 767px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes12_div img{
     width: 220px;
@@ -524,6 +542,7 @@ body{
     border: 1px solid rgb(221,226,228);
      margin-left: 767px;
     margin-top: 51px;
+    cursor: pointer;
 }
 
 #shoes13_div img{
@@ -536,6 +555,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 521px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes14_div img{
     width: 220px;
@@ -547,6 +567,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 275px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes15_div img{
     width: 220px;
@@ -558,6 +579,7 @@ body{
     border: 1px solid rgb(221,226,228);
      margin-left: 29px;
     margin-top: -303px;
+    cursor: pointer;
  }
 #shoes16_div img{
     width: 220px;
@@ -569,6 +591,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 29px;
     margin-top: 51px;
+    cursor: pointer;
 }
 #shoes17_div img{
     width: 220px;
@@ -580,6 +603,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 275px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes18_div img{
     width: 220px;
@@ -591,6 +615,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 521px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes19_div img{
     width: 220px;
@@ -602,6 +627,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 767px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes20_div img{
     width: 220px;
@@ -613,6 +639,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 767px;
     margin-top: 51px;
+    cursor: pointer;
 }
 #shoes21_div img{
     width: 220px;
@@ -624,6 +651,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 521px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes22_div img{
     width: 220px;
@@ -635,6 +663,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 275px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes23_div img{
     width: 220px;
@@ -646,6 +675,7 @@ body{
     border: 1px solid rgb(221,226,228);
     margin-left: 29px;
     margin-top: -303px;
+    cursor: pointer;
 }
 #shoes24_div img{
     width: 220px;

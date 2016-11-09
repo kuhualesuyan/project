@@ -201,8 +201,3 @@ qiuxie4.onmouseover = function(){
 qiuxie4.onmouseout = function(){
   qiuxie4.style.border = "1px solid rgb(223,227,229)";
 }
-var dingimg = document.getElementById("dingImg");
-var dingAmount = document.getElementById("dingAmount");
-dingimg.onclick = function(){
-  dingAmount += 1;
-}
