@@ -5,7 +5,7 @@ body{
 #zDIV{
     width:1440px;
     height:968px;
-    margin-left: -70px;
+    margin-left: -29px;
 }
 /*head begin*/
 #head_div {
@@ -86,7 +86,7 @@ body{
 #jiantouimg{
     position: absolute;
     top: 14px;
-    left: 1074px;
+    left: 1113px;
     cursor: context-menu;
 }
 /*head end*/
