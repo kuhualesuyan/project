@@ -5,6 +5,7 @@ body{
 #zDiv{
     width: 1440px;
     height:3162px;
+    margin-left: -70px;
     /*border: 1px solid black;*/
 }
 /*head begin*/
@@ -87,7 +88,7 @@ body{
     /* padding-left: 50px;*/
     position: absolute;
     top: 14px;
-    left: 1143px;
+    left: 1074px;
     cursor: context-menu;
     /*width: 0px;*/
     /*height: 0px;*/
@@ -131,31 +132,31 @@ body{
 }
 #underline1{
     position: absolute;
-    left: 470px;
+    left: 400px;
     top: 221px;
     display: none;
 }
 #underline2{
     position: absolute;
-    left: 576px;
+    left: 508px;
     top: 221px;
     display: none;
 }
 #underline3{
     position: absolute;
-    left: 672px;
+    left: 610px;
     top: 221px;
     display: none;
 }
 #underline4{
     position: absolute;
-    left: 771px;
+    left: 704px;
     top: 221px;
     display: none;
 }
 #underline5{
     position: absolute;
-    left: 872px;
+    left: 808px;
     top: 221px;
     display: none;
 }
@@ -169,7 +170,7 @@ body{
 #sousuochangeimg{
     position: absolute;
     top: 173px;
-    left: 1000px;
+    left: 938px;
     display: none;
 }
 
@@ -218,12 +219,13 @@ body{
     height: 52px;
     border: none;
     background-color: rgb(129,129,129);
+    margin-left: -99px;
 }
 #input_div span{
     color: white;
     position: absolute;
     top: 21px;
-    left: 39px;
+    left: -45px;
     font-size: 13px;
 }
 /*good detail*/
@@ -421,7 +423,7 @@ body{
     top: 541px;
     border-radius: 4px;
     background-color: rgb(205,205,205);
-    left: 960px;
+    left: 893px;
 }
 #amount_div span{
     color: rgb(115,114,113);
@@ -440,7 +442,7 @@ body{
     height: 34px;
     /*border: 1px solid black;*/
     position: absolute;
-    left: 1053px;
+    left: 991px;
     top: 541px;
     border-radius: 4px;
     background-color: rgb(250,84,0);
@@ -458,7 +460,7 @@ body{
     font-size: 14px;
     position: absolute;
     top: 591px;
-    left: 1166px;
+    left: 1103px;
     color: rgb(84,84,84);
     cursor: pointer;
     font-family: 微软雅黑;
@@ -468,7 +470,7 @@ body{
      color: rgb(84,84,84);
      position: absolute;
      top: 624px;
-     left: 872px;
+     left: 797px;
     font-family: 微软雅黑;
  }
 #detail_href{
@@ -476,7 +478,7 @@ body{
     color: rgb(143,142,141);
     position: absolute;
     top: 624px;
-    left: 1124px;
+    left: 1053px;
     font-family: 微软雅黑;
 }
 /*maybe you like */
@@ -953,7 +955,7 @@ body{
 /*end*/
 #end_div{
     width: 1440px;
-    height: 430px;
+    height: 341px;
     border: 1px solid black;
     margin-top: -126px;
     background-color: black;
@@ -961,7 +963,7 @@ body{
 #end_ul{
     padding-left: 289px;
     list-style-type: none;
-    padding-top: 146px;
+    padding-top: 50px;
 }
 #end_ul li{
     padding-bottom: 15px;

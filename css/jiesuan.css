@@ -5,6 +5,7 @@ body{
 #ZDiv{
     width: 1440px;
     height: 1080px;
+    margin-left: -70px;
     /*border: 1px solid black;*/
 }
 /*head begin*/
@@ -87,7 +88,7 @@ body{
     /* padding-left: 50px;*/
     position: absolute;
     top: 14px;
-    left: 1143px;
+    left: 1074px;
     cursor: context-menu;
     /*width: 0px;*/
     /*height: 0px;*/
@@ -249,7 +250,7 @@ body{
 /*end*/
 #end_div{
     width: 1440px;
-    height: 430px;
+    height: 341px;
     border: 1px solid black;
     /*margin-top: 65px;*/
     background-color: black;
@@ -257,7 +258,7 @@ body{
 #end_ul{
     padding-left: 289px;
     list-style-type: none;
-    padding-top: 146px;
+    padding-top: 50px;
 }
 #end_ul li{
     padding-bottom: 15px;

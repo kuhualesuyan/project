@@ -5,6 +5,7 @@ body{
 #zDIV{
     width:1440px;
     height:968px;
+    margin-left: -70px;
 }
 /*head begin*/
 #head_div {
@@ -85,7 +86,7 @@ body{
 #jiantouimg{
     position: absolute;
     top: 14px;
-    left: 1143px;
+    left: 1074px;
     cursor: context-menu;
 }
 /*head end*/
@@ -224,7 +225,7 @@ body{
 /*end*/
 #end_div{
     width: 1440px;
-    height: 430px;
+    height: 341px;
     border: 1px solid black;
     margin-top: 65px;
     background-color: black;
@@ -232,7 +233,7 @@ body{
 #end_ul{
     padding-left: 289px;
     list-style-type: none;
-    padding-top: 146px;
+    padding-top: 50px;
 }
 #end_ul li{
     padding-bottom: 15px;

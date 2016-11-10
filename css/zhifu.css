@@ -5,6 +5,7 @@ body{
 #Z_DIV{
     width:1440px;
     height:1034px;
+    margin-left: -70px;
 }
 /*head begin*/
 #head_div {
@@ -61,11 +62,13 @@ body{
     color: gray;
     font-size: 13px;
     cursor: pointer;
+    font-family: 微软雅黑;
 }
 #dl_span{
     color: gray;
     font-size: 13px;
     cursor: pointer;
+    font-family: 微软雅黑;
 }
 #span_div{
     width: 86px;
@@ -84,7 +87,7 @@ body{
     /* padding-left: 50px;*/
     position: absolute;
     top: 14px;
-    left: 1143px;
+    left: 1074px;
     cursor: context-menu;
     /*width: 0px;*/
     /*height: 0px;*/
@@ -115,6 +118,7 @@ body{
 #logoimg_div ul li{
     float: left;
     padding-right: 63px;
+    font-family: 微软雅黑;
 }
 /*付款*/
 #FK_div{
@@ -240,15 +244,15 @@ body{
 /*end*/
 #end_div{
     width: 1440px;
-    height: 322px;
-    /*border: 1px solid black;*/
-    margin-top: 71px;
+    height: 341px;
+    border: 1px solid black;
+    margin-top: 65px;
     background-color: black;
 }
 #end_ul{
     padding-left: 289px;
     list-style-type: none;
-    padding-top: 39px;
+    padding-top: 50px;
 }
 #end_ul li{
     padding-bottom: 15px;
@@ -257,6 +261,7 @@ body{
     text-decoration: none;
     color: rgb(71,71,71);
     font-size: 12px;
+    font-family: 微软雅黑;
 }
 #end_ul1{
     list-style-type: none;
@@ -271,6 +276,7 @@ body{
     text-decoration: none;
     color: rgb(71,71,71);
     font-size: 12px;
+    font-family: 微软雅黑;
 }
 #end_ul2{
     list-style-type: none;
@@ -284,6 +290,7 @@ body{
     text-decoration: none;
     color: rgb(71,71,71);
     font-size: 12px;
+    font-family: 微软雅黑;
 }
 #shequ_div{
     width: 254px;
@@ -297,6 +304,7 @@ body{
     padding-left: 145px;
     position: relative;
     top: 29px;
+    font-family: 微软雅黑;
 }
 #endLogo_div{
     width: 193px;
@@ -330,12 +338,14 @@ body{
     color: rgb(71,71,71);
     font-size: 12px;
     padding-left: 227px;
-    margin-top: -30px;
+    margin-top: -32px;
+    font-family: 微软雅黑;
 }
 #bottom_li2{
     float: left;
     color: rgb(71,71,71);
     font-size: 12px;
     padding-left: 501px;
-    margin-top: -30px;
+    margin-top: -32px;
+    font-family: 微软雅黑;
 }

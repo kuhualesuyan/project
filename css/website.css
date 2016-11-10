@@ -9,6 +9,7 @@ a{
 #zdiv{
     width:1440px;
     height:2298px;
+    margin-left: -70px;
     /*border:1px solid black;*/
 }
 #z_div{
@@ -99,7 +100,7 @@ a{
    /* padding-left: 50px;*/
     position: absolute;
     top: 14px;
-    left: 1143px;
+    left: 1074px;
     cursor: context-menu;
     /*width: 0px;*/
     /*height: 0px;*/
@@ -138,32 +139,32 @@ a{
 }
 #underline1{
     position: absolute;
-    left: 470px;
-    top: 217px;
+    left: 400px;
+    top: 221px;
     display: none;
 }
 #underline2{
     position: absolute;
-    left: 576px;
-    top: 218px;
+    left: 508px;
+    top: 221px;
     display: none;
 }
 #underline3{
     position: absolute;
-    left: 672px;
-    top: 218px;
+    left: 610px;
+    top: 221px;
     display: none;
 }
 #underline4{
     position: absolute;
-    left: 771px;
-    top: 218px;
+    left: 704px;
+    top: 221px;
     display: none;
 }
 #underline5{
     position: absolute;
-    left: 872px;
-    top: 218px;
+    left: 808px;
+    top: 221px;
     display: none;
 }
 #sousuoimg{
@@ -176,7 +177,7 @@ a{
 #sousuochangeimg{
     position: absolute;
     top: 173px;
-    left: 1000px;
+    left: 938px;
     display: none;
 }
 #list_div{
@@ -267,7 +268,7 @@ a{
     border: 1px solid white;
     position: absolute;
     top: 627px;
-    left: 287px;
+    left: 217px;
     border-radius: 9px;
     cursor: pointer;
     /*display: none;*/
@@ -285,7 +286,7 @@ a{
     border: 1px solid white;
     position: absolute;
     top: 1203px;
-    left: 359px;
+    left: 270px;
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
@@ -305,7 +306,7 @@ a{
     border: 1px solid white;
     position: absolute;
     top: 956px;
-    left: 879px;
+    left: 799px;
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
@@ -324,7 +325,7 @@ a{
     border: 1px solid white;
     position: absolute;
     top: 1231px;
-    left: 879px;
+    left: 799px;
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
@@ -343,7 +344,7 @@ a{
     border: 1px solid white;
     position: absolute;
     top: 1482px;
-    left: 359px;
+    left: 270px;
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
@@ -362,7 +363,7 @@ a{
     border: 1px solid white;
     position: absolute;
     top: 1482px;
-    left: 879px;
+    left:799px;
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
@@ -381,7 +382,7 @@ a{
     border: 1px solid white;
     position: absolute;
     top: 1799px;
-    left: 613px;
+    left: 546px;
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
