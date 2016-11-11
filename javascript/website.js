@@ -106,11 +106,25 @@ sousuoimg.onclick = function(){
 
 var goumai_div = document.getElementById("goumai_div");
 goumai_div.onclick = function(){
+  goumai_div.style.backgroundColor = "orange";
+}
+goumai_div.onmouseover = function(){
   goumai_div.style.backgroundColor = "rgb(0,170,232)";
 }
+goumai_div.onmouseout = function(){
+  goumai_div.style.backgroundColor = "transparent";
+}
+
+
 var goumai1_div = document.getElementById("goumai1_div");
 goumai1_div.onclick = function(){
+  goumai1_div.style.backgroundColor = "orange";
+}
+goumai1_div.onmouseover = function(){
   goumai1_div.style.backgroundColor = "rgb(0,170,232)";
+}
+goumai1_div.onmouseout = function(){
+  goumai1_div.style.backgroundColor = "transparent";
 }
 var shouye2 = document.getElementById("shouye2");
 var opacity1 = document.getElementById("opacity1");
@@ -124,7 +138,13 @@ opacity1.onmouseout = function(){
 }
 var goumai2_div = document.getElementById("goumai2_div");
 goumai2_div.onclick = function(){
+  goumai2_div.style.backgroundColor = "orange";
+}
+goumai2_div.onmouseover = function(){
   goumai2_div.style.backgroundColor = "rgb(0,170,232)";
+}
+goumai2_div.onmouseout = function(){
+  goumai2_div.style.backgroundColor = "transparent";
 }
 var shouye3 = document.getElementById("shouye3");
 var opacity2 = document.getElementById("opacity2");
@@ -138,7 +158,13 @@ opacity2.onmouseout = function(){
 }
 var goumai3_div = document.getElementById("goumai3_div");
 goumai3_div.onclick = function(){
+  goumai3_div.style.backgroundColor = "orange";
+}
+goumai3_div.onmouseover = function(){
   goumai3_div.style.backgroundColor = "rgb(0,170,232)";
+}
+goumai3_div.onmouseout = function(){
+  goumai3_div.style.backgroundColor = "transparent";
 }
 var shouye4 = document.getElementById("shouye4");
 var opacity3 = document.getElementById("opacity3");
@@ -152,7 +178,13 @@ opacity3.onmouseout = function(){
 }
 var goumai4_div = document.getElementById("goumai4_div");
 goumai4_div.onclick = function(){
+  goumai4_div.style.backgroundColor = "orange";
+}
+goumai4_div.onmouseover = function(){
   goumai4_div.style.backgroundColor = "rgb(0,170,232)";
+}
+goumai4_div.onmouseout = function(){
+  goumai4_div.style.backgroundColor = "transparent";
 }
 var shouye5 = document.getElementById("shouye5");
 var opacity4 = document.getElementById("opacity4");
@@ -166,7 +198,13 @@ opacity4.onmouseout = function(){
 }
 var goumai5_div = document.getElementById("goumai5_div");
 goumai5_div.onclick = function(){
+  goumai5_div.style.backgroundColor = "orange";
+}
+goumai5_div.onmouseover = function(){
   goumai5_div.style.backgroundColor = "rgb(0,170,232)";
+}
+goumai5_div.onmouseout = function(){
+  goumai5_div.style.backgroundColor = "transparent";
 }
 var shouye6 = document.getElementById("shouye6");
 var opacity5 = document.getElementById("opacity5");
@@ -180,7 +218,13 @@ opacity5.onmouseout = function(){
 }
 var goumai6_div = document.getElementById("goumai6_div");
 goumai6_div.onclick = function(){
+  goumai6_div.style.backgroundColor = "orange";
+}
+goumai6_div.onmouseover = function(){
   goumai6_div.style.backgroundColor = "rgb(0,170,232)";
+}
+goumai6_div.onmouseout = function(){
+  goumai6_div.style.backgroundColor = "transparent";
 }
 var shouye7 = document.getElementById("shouye7");
 var opacity6 = document.getElementById("opacity6");
@@ -193,69 +237,41 @@ opacity6.onmouseout = function(){
   goumai6_div.style.display = "none";
 }
 
-var ziDong;
-var  sj= 0;
-var tu = document.getElementById("tuPian");
-var mdiv = document.getElementById("mdiv");
-var sd = document.getElementsByClassName("myDiv");
-var arr = ["../images/shouye/shouye1.png","../images/shouye/shouye1.png","../images/shouye/shouye1.png","../images/shouye/shouye1.png","../images/shouye/shouye1.png"];
-sd[0].onmouseover = function(){
-  tu.src = arr[0];
-  for(var j = 0;j<sd.length;j++){
-    sd[j].style.backgroundPosition = '16px 16px';
-  }
-  sd[0].style.backgroundPosition = '0px 16px';
-  window.clearInterval(ziDong);
+/*图片自动切换*/
+//图片
+//轮换图片数组
+var lunBoQi = document.getElementById('tuPian');
+var tuArr = ["../images/shouye/shouye1.png","../images/shouye/shouye1.png","../images/shouye/shouye1.png","../images/shouye/shouye1.png","../images/shouye/shouye1.png"];
+var lanDian = document.getElementsByClassName("myDiv");
+var num = 0;
+var timer = null;
+startMove = function () {
+  timer = window.setInterval(function () {
+    lunBoQi.src = tuArr[num%tuArr.length];
+    for(var j=0;j<lanDian.length;j++){
+      lanDian[j].style.background = "#fff";
+    }
+    lanDian[num%tuArr.length].style.background = "#21749e";
+    num++;
+  },1000)
 }
-sd[1].onmouseover = function(){
-  tu.src = arr[1];
-  for(var j = 0;j<sd.length;j++){
-    sd[j].style.backgroundPosition = '16px 15px';
-  }
-  sd[1].style.backgroundPosition = '0px 16px';
-  window.clearInterval(ziDong);
+startMove();
+lunBoQi.onmouseover = function () {
+  window.clearInterval(timer);
 }
-sd[2].onmouseover = function(){
-  tu.src = arr[2];
-  for(var j = 0;j<sd.length;j++){
-    sd[j].style.backgroundPosition = '16px 15px';
-  }
-  sd[2].style.backgroundPosition = '0px 16px';
-  window.clearInterval(ziDong);
+lunBoQi.onmouseout = function () {
+  startMove();
 }
-sd[3].onmouseover = function(){
-  tu.src = arr[3];
-  for(var j = 0;j<sd.length;j++){
-    sd[j].style.backgroundPosition = '16px 15px';
-  }
-  sd[3].style.backgroundPosition = '0px 16px';
-  window.clearInterval(ziDong);
-}
-sd[4].onmouseover = function(){
-  tu.src = arr[4];0
-  for(var j = 0;j<sd.length;j++){
-    sd[j].style.backgroundPosition = '16px 15px';
-  }
-  sd[4].style.backgroundPosition = '0px 16px';
-  window.clearInterval(ziDong);
-}
-for(var i = 0;i<sd.length;i++){
-  window.clearInterval(ziDong);
-}
-function qieHuan() {
-  tu.src = arr[sj];
-  for(var j = 0;j<sd.length;j++){
-    sd[j].style.backgroundPosition = '16px 15px';
-  }
-  sd[(sj+5)%5].style.backgroundPosition = '0px 16px';
-  sj = (sj+1)%5;
-}
-window.onload = function(){
-  ziDong = window.setInterval('qieHuan()', 1200)
-}
-tu.onmouseover = function(){
-  window.clearInterval(ziDong);
-}
-tu.onmouseout = function(){
-  ziDong = window.setInterval('qieHuan()', 1200)
+for(var i = 0; i<lanDian.length;i++){
+  (function (i) {
+    lanDian[i].onmouseover = function () {
+      window.clearInterval(timer);
+      for(var j=0;j<lanDian.length;j++){
+        lanDian[j].style.background = "#fff";
+      }
+      lanDian[i].style.background = "#21749e";
+      lunBoQi.src = tuArr[i];
+      num = i;
+    }
+  }(i))
 }

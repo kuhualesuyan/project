@@ -32,3 +32,14 @@ jiantouimg.onmouseout = function(){
   guoqi.style.display = "none";
 }
 /*head end*/
+var sc_btn = document.getElementById("sc_btn");
+var JTmsg_div = document.getElementById("JTmsg_div");
+var sl_span = document.getElementById("sl_span");
+var dd_span = document.getElementById("dd_span");
+var ddzj_span = document.getElementById("ddzj_span");
+sc_btn.onclick = function(){
+  JTmsg_div.style.display = "none";
+  sl_span.innerHTML = 0;
+  dd_span.innerHTML = 0;
+  ddzj_span.innerHTML = 0;
+}

@@ -214,7 +214,7 @@ body{
     font-size: 13px;
 }
 #menu_div ul li a:hover{
-    color:rgb(0,170,232);
+    color:orange;
 }
 #input_div{
     display: none;
@@ -394,6 +394,7 @@ body{
     border: 1px solid black;
     margin-left: 848px;
     margin-top: 22px;
+    cursor: pointer;
 }
 #ArrMode_div span{
     font-size: 13px;

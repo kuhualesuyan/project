@@ -69,6 +69,7 @@ a{
     left: -40px;
     top: 2px;
     display: none;
+    cursor: pointer;
 }
 #zc_span{
     margin-left: -9px;
@@ -214,23 +215,27 @@ a{
     color:rgb(0,170,232);
 }
 #input_div{
-    width: 999px;
+    width: 1002px;
     height: 52px;
     /* border: 1px solid black; */
-    margin-top: -54px;
+    margin-top: -52px;
     margin-left: 219px;
+    background-color: rgb(129,129,129);
     display: none;
 }
 #input_div input{
-    width: 1001px;
-    height: 52px;
+    width: 500px;
+    height: 31px;
     border: none;
     background-color: rgb(129,129,129);
+    margin-left: 195px;
+    margin-top: 8px;
+    outline: none;
 }
 #input_div span{
     color: white;
     position: absolute;
-    top: 242px;
+    top: 241px;
     left: 284px;
     font-size: 13px;
     font-family: 微软雅黑;
@@ -398,13 +403,13 @@ a{
 #shouye_div{
     width: 1002px;
     height: 1174px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-left: 219px;
 }
 #shouyeimg_div{
     width: 1002px;
     height: 752px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 #syimg_div{
     width: 529px;
@@ -414,7 +419,7 @@ a{
 #opacity1{
     width: 529px;
     height: 476px;
-    background-color: pink;
+    background-color: rgb(139,206,239);
     position: absolute;
     border: 1px solid black;
     top: 857px;
@@ -423,51 +428,51 @@ a{
 }
 #opacity2{
     width: 471px;
-    height: 251px;
-    background-color: rgb(220,220,220);
+    height: 254px;
+    background-color: rgb(244,183,87);
     position: absolute;
     border: 1px solid black;
-    top: 859px;
+    top: 855px;
     opacity: 0.5;
     display: none;
 }
 #opacity3{
-    width: 471px;
+    width: 470px;
     height: 248px;
-    background-color: rgb(64,0,54);
+    background-color: rgb(145,0,123);
     position: absolute;
     border: 1px solid black;
-    top: 1111px;
+    top: 1108px;
     opacity: 0.5;
     display: none;
 }
 #opacity4{
     width: 528px;
     height: 278px;
-    background-color: rgb(145,107,121);
+    background-color: rgb(245,159,188);
     position: absolute;
     border: 1px solid black;
-    top: 1333px;
+    top: 1330px;
     opacity: 0.5;
     display: none;
 }
 #opacity5{
     width: 470px;
-    height: 251px;
-    background-color: rgb(241,184,189);
+    height: 250px;
+    background-color: rgb(236,107,118);
     position: absolute;
     border: 1px solid black;
-    top: 1359px;
+    top: 1358px;
     opacity: 0.5;
     display: none;
 }
 #opacity6{
     width: 1001px;
     height: 418px;
-    background-color: rgb(241,184,189);
+    background-color: rgb(121,196,113);
     position: absolute;
     border: 1px solid black;
-    top: 1612px;
+    top: 1609px;
     opacity: 0.5;
     display: none;
 }
@@ -619,6 +624,6 @@ a{
     border-radius: 79px;
     float: left;
     margin-right: 19px;
-    background: url(../images/shouye/dian_1.png);
-    background-position: 16px 16px;
+    /*background: url(../images/shouye/dian_1.png);*/
+    /*background-position: 16px 16px;*/
 }
