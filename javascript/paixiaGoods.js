@@ -29,3 +29,15 @@ jiantouimg.onmouseout = function(){
   guoqi.style.display = "none";
 }
 /*head end*/
+
+//选择国旗
+var gq_li = document.getElementsByClassName("gq_li");
+var jt = document.getElementById("jt");
+var jiantouimg = document.getElementById("china1");
+for(var i = 0;i<gq_li.length;i++){
+  (function(i){
+    gq_li[i].onclick = function(){
+      jiantouimg.src = gq_li[i].src;
+    }
+  }(i))
+}

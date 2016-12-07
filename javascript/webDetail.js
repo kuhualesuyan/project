@@ -103,7 +103,12 @@ sousuoimg.onclick = function () {
   menu_ul.style.display = "none";
   input_div.style.display = "block";
 }
-
+suosouchangeimg.onclick = function() {
+  input_div.style.display = "none";
+  sousuoimg.style.display = "block";
+  suosouchangeimg.style.display = "none";
+  menu_ul.style.display = "block";
+}
 var dis_div = document.getElementById("dis_div");
 var shoesimg = document.getElementById("shoesimg");
 var dis1_div = document.getElementById("dis1_div");
@@ -119,42 +124,42 @@ var shoes5img = document.getElementById("shoes5img");
 var shoes6img = document.getElementById("shoes6img");
 shoesimg.onmouseover = function () {
   dis_div.style.border = "1px solid rgb(0,170,232)";
-  shoes6img.src = "../images/shoes/desShoes.jpg";
+  shoes6img.src = "../images/shoes/2.png";
 }
 shoesimg.onmouseout = function () {
   dis_div.style.border = "1px solid rgb(223,227,229)";
 }
 shoes1img.onmouseover = function () {
   dis1_div.style.border = "1px solid rgb(0,170,232)";
-  shoes6img.src = "../images/shoes/desShoes1.jpg";
+  shoes6img.src = "../images/shoes/1.png";
 }
 shoes1img.onmouseout = function () {
   dis1_div.style.border = "1px solid rgb(223,227,229)";
 }
 shoes2img.onmouseover = function () {
   dis2_div.style.border = "1px solid rgb(0,170,232)";
-  shoes6img.src = "../images/shoes/desShoes2.jpg";
+  shoes6img.src = "../images/shoes/2.png";
 }
 shoes2img.onmouseout = function () {
   dis2_div.style.border = "1px solid rgb(223,227,229)";
 }
 shoes3img.onmouseover = function () {
   dis3_div.style.border = "1px solid rgb(0,170,232)";
-  shoes6img.src = "../images/shoes/desShoes3.jpg";
+  shoes6img.src = "../images/shoes/4.png";
 }
 shoes3img.onmouseout = function () {
   dis3_div.style.border = "1px solid rgb(223,227,229)";
 }
 shoes4img.onmouseover = function () {
   dis4_div.style.border = "1px solid rgb(0,170,232)";
-  shoes6img.src = "../images/shoes/desShoes4.jpg";
+  shoes6img.src = "../images/shoes/4.png";
 }
 shoes4img.onmouseout = function () {
   dis4_div.style.border = "1px solid rgb(223,227,229)";
 }
 shoes5img.onmouseover = function () {
   dis5_div.style.border = "1px solid rgb(0,170,232)";
-  shoes6img.src = "../images/shoes/desShoes5.jpg";
+  shoes6img.src = "../images/shoes/2.png";
 }
 shoes5img.onmouseout = function () {
   dis5_div.style.border = "1px solid rgb(223,227,229)";
@@ -234,7 +239,7 @@ jianbtn.onclick = function () {
     a_span.innerHTML = c;
   }
 }
-
+//选择尺码
 var size_li = document.getElementById("size_li");
 var size = document.getElementById("size");
 size_li.onmouseover = function(){
@@ -242,4 +247,27 @@ size_li.onmouseover = function(){
 }
 size.onmouseout = function(){
   size.style.display = "none";
+}
+var cm_li = document.getElementsByClassName("cm_li");
+var xjt = document.getElementById("xjt");
+var cm = document.getElementById("cm");
+for(var i = 0;i<cm_li.length;i++){
+  (function(i){
+    cm_li[i].onclick = function(){
+      xjt.style.display = "none";
+      cm.innerHTML ="尺码:"+cm_li[i].innerHTML;
+    }
+  }(i))
+}
+
+//选择国旗
+var gq_li = document.getElementsByClassName("gq_li");
+var jt = document.getElementById("jt");
+var jiantouimg = document.getElementById("china1");
+for(var i = 0;i<gq_li.length;i++){
+  (function(i){
+    gq_li[i].onclick = function(){
+      jiantouimg.src = gq_li[i].src;
+    }
+  }(i))
 }

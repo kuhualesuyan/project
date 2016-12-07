@@ -270,3 +270,32 @@ shoes24_div.onmouseover = function(){
 shoes24_div.onmouseout = function(){
   shoes24_div.style.border = "1px solid rgb(221,227,228)"
 }
+suosouchangeimg.onclick = function(){
+  input_div.style.display = "none";
+  sousuoimg.style.display = "block";
+  suosouchangeimg.style.display = "none";
+  menu_ul.style.display = "block";
+}
+
+//选择国旗
+var gq_li = document.getElementsByClassName("gq_li");
+var jt = document.getElementById("jt");
+var jiantouimg = document.getElementById("china1");
+for(var i = 0;i<gq_li.length;i++){
+  (function(i){
+    gq_li[i].onclick = function(){
+      jiantouimg.src = gq_li[i].src;
+    }
+  }(i))
+}
+
+//选择页数
+var s_href = document.getElementById('s_href');
+var x_href = document.getElementById("x_href");
+var one = document.getElementById("one");
+x_href.onclick = function(){
+  one.innerHTML = parseInt(parseInt(one.innerHTML)+parseInt(1));
+}
+s_href.onclick = function(){
+  one.innerHTML = parseInt(parseInt(one.innerHTML)-parseInt(1));
+}

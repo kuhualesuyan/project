@@ -5,7 +5,7 @@ body{
 #Zdiv{
     width: 1440px;
     height: 3044px;
-    margin-left: -29px;
+    margin-left: -100px;
     /*border: 1px solid black;*/
 }
 #z_div{
@@ -97,7 +97,7 @@ body{
     /* padding-left: 50px;*/
     position: absolute;
     top: 14px;
-    left: 1113px;
+    left: 1047px;
     cursor: context-menu;
     /*width: 0px;*/
     /*height: 0px;*/
@@ -140,31 +140,31 @@ body{
 }
 #underline1{
     position: absolute;
-    left: 441px;
+    left: 373px;
     top: 221px;
     display: none;
 }
 #underline2{
     position: absolute;
-    left: 548px;
+    left: 475px;
     top: 221px;
     display: none;
 }
 #underline3{
     position: absolute;
-    left: 649px;
+    left: 575px;
     top: 221px;
     display: none;
 }
 #underline4{
     position: absolute;
-    left: 745px;
+    left: 673px;
     top: 221px;
     display: none;
 }
 #underline5{
     position: absolute;
-    left: 849px;
+    left: 774px;
     top: 221px;
     display: none;
 }
@@ -178,7 +178,7 @@ body{
 #sousuochangeimg{
     position: absolute;
     top: 173px;
-    left: 979px;
+    left: 908px;
     display: none;
 }
 
@@ -217,24 +217,30 @@ body{
     color:orange;
 }
 #input_div{
+    width: 1002px;
+    height: 52px;
+    /* border: 1px solid black; */
+    margin-top: -52px;
+    margin-left: 219px;
+    background-color: rgb(129,129,129);
     display: none;
-    position: absolute;
-    top: 226px;
-    left: 276px;
 }
 #input_div input{
-    width: 1001px;
-    height: 52px;
+    width: 500px;
+    height: 31px;
     border: none;
     background-color: rgb(129,129,129);
-    margin-left: -87px;
+    margin-left: 195px;
+    margin-top: 8px;
+    outline: none;
 }
 #input_div span{
     color: white;
     position: absolute;
-    top: 21px;
-    left: -45px;
+    top: 241px;
+    left: 213px;
     font-size: 13px;
+    font-family: 微软雅黑;
 }
 /*商品信息*/
 
@@ -270,11 +276,15 @@ body{
     font-size: 14px;
     font-family: 微软雅黑;
 }
+#brand_div ul{
+    position: absolute;
+    left: 226px;
+    top: 304px;
+}
 #brand_div li{
     list-style-type: none;
     float: left;
-    padding-right: 10px;
-    padding-left: 148px;
+    padding-right: 84px;
     margin-top: 16px;
 }
 #brand_div li a{
@@ -294,11 +304,16 @@ body{
     font-size: 14px;
     font-family: 微软雅黑;
 }
+#class_div ul{
+    position: absolute;
+    left: 226px;
+    top: 347px;
+}
 #class_div li{
     list-style-type: none;
     float: left;
-    padding-right: 10px;
-    padding-left: 148px;
+    padding-right: 84px;
+    /*padding-left: 148px;*/
     margin-top: 17px;
 }
 #class_div li a{
@@ -310,6 +325,7 @@ body{
 #class_div li a:hover{
     color:rgb(0,170,232);
 }
+
 #Appobj_span{
     padding-left: 65px;
     position: absolute;
@@ -318,11 +334,15 @@ body{
     font-size: 14px;
     font-family: 微软雅黑;
 }
+#appobj_div ul{
+    position: absolute;
+    left: 226px;
+    top: 393px;
+}
 #appobj_div li{
     list-style-type: none;
     float: left;
-    padding-right: 10px;
-    padding-left: 148px;
+    padding-right: 84px;
     margin-top: 17px;
 }
 #appobj_div li a{
@@ -335,17 +355,22 @@ body{
     color:rgb(0,170,232);
 }
 #Size_span{
-    left: 282px;
+    left: 211px;
     position: absolute;
-    top: 469px;
+    top: 468px;
     color: rgb(107,107,107);
     font-size: 14px;
     font-family: 微软雅黑;
 }
+#size_div ul{
+    position: absolute;
+    left: 226px;
+    top: 435px;
+}
 #size_div li{
     list-style-type: none;
     float: left;
-    margin-left: 148px;
+    padding-right: 84px;
     /*padding-right: 77px;*/
     margin-top: 17px;
 }
@@ -361,7 +386,7 @@ body{
 #size_div img{
     position: absolute;
     top: 469px;
-    left: 1177px;
+    left: 1096px;
 }
 /*商品列表*/
 #shangpinList_div{
@@ -418,7 +443,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 29px;
+    position: absolute;
+    left: 145px;
+    top: 600px;
     cursor: pointer;
 }
 #shoes1_div img{
@@ -429,8 +456,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 275px;
-    margin-top: -303px;
+    position: absolute;
+    left: 397px;
+    top: 600px;
     cursor: pointer;
 }
 #shoes2_div img{
@@ -441,8 +469,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 521px;
-    margin-top: -303px;
+    position: absolute;
+    left: 649px;
+    top: 600px;
     cursor: pointer;
 }
 #shoes3_div img{
@@ -453,8 +482,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 767px;
-    margin-top: -303px;
+    position: absolute;
+    left: 900px;
+    top: 600px;
     cursor: pointer;
 }
 #shoes4_div img{
@@ -465,8 +495,9 @@ body{
      width: 220px;
      height: 217px;
     border: 1px solid rgb(221,226,228);
-     margin-left: 767px;
-    margin-top: 51px;
+    position: absolute;
+    left: 145px;
+    top: 945px;
     cursor: pointer;
  }
 #shoes5_div img{
@@ -477,8 +508,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 521px;
-    margin-top: -303px;
+    position: absolute;
+    left: 397px;
+    top: 945px;
     cursor: pointer;
 }
 #shoes6_div img{
@@ -489,8 +521,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 275px;
-    margin-top: -303px;
+    position: absolute;
+    left: 649px;
+    top: 945px;
     cursor: pointer;
 }
 #shoes7_div img{
@@ -501,8 +534,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 29px;
-    margin-top: -303px;
+    position: absolute;
+    left: 900px;
+    top: 945px;
     cursor: pointer;
 }
 #shoes8_div img{
@@ -513,8 +547,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 29px;
-    margin-top: 51px;
+    position: absolute;
+    left: 145px;
+    top:1295px;
     cursor: pointer;
 }
 #shoes9_div img{
@@ -525,8 +560,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 275px;
-    margin-top: -303px;
+    position: absolute;
+    left: 397px;
+    top:1295px;
     cursor: pointer;
 }
 #shoes10_div img{
@@ -537,8 +573,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 521px;
-    margin-top: -303px;
+    position: absolute;
+    left: 649px;
+    top:1295px;
     cursor: pointer;
 }
 #shoes11_div img{
@@ -549,8 +586,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 767px;
-    margin-top: -303px;
+    position: absolute;
+    left: 900px;
+    top:1295px;
     cursor: pointer;
 }
 #shoes12_div img{
@@ -561,8 +599,9 @@ body{
      width: 220px;
      height: 217px;
     border: 1px solid rgb(221,226,228);
-     margin-left: 767px;
-    margin-top: 51px;
+    position: absolute;
+    left: 145px;
+    top:1641px;
     cursor: pointer;
 }
 
@@ -574,8 +613,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 521px;
-    margin-top: -303px;
+    position: absolute;
+    left:397px;
+    top:1641px;
     cursor: pointer;
 }
 #shoes14_div img{
@@ -586,8 +626,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 275px;
-    margin-top: -303px;
+    position: absolute;
+    left:649px;
+    top:1641px;
     cursor: pointer;
 }
 #shoes15_div img{
@@ -598,8 +639,9 @@ body{
      width: 220px;
      height: 217px;
     border: 1px solid rgb(221,226,228);
-     margin-left: 29px;
-    margin-top: -303px;
+    position: absolute;
+    left:900px;
+    top:1641px;
     cursor: pointer;
  }
 #shoes16_div img{
@@ -610,8 +652,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 29px;
-    margin-top: 51px;
+    position: absolute;
+    left:145px;
+    top:1986px;
     cursor: pointer;
 }
 #shoes17_div img{
@@ -622,8 +665,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 275px;
-    margin-top: -303px;
+    position: absolute;
+    left:397px;
+    top:1986px;
     cursor: pointer;
 }
 #shoes18_div img{
@@ -634,8 +678,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 521px;
-    margin-top: -303px;
+    position: absolute;
+    left:649px;
+    top:1986px;
     cursor: pointer;
 }
 #shoes19_div img{
@@ -646,8 +691,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 767px;
-    margin-top: -303px;
+    position: absolute;
+    left:900px;
+    top:1986px;
     cursor: pointer;
 }
 #shoes20_div img{
@@ -658,8 +704,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 767px;
-    margin-top: 51px;
+    position: absolute;
+    left: 145px;
+    top: 2325px;
     cursor: pointer;
 }
 #shoes21_div img{
@@ -670,8 +717,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 521px;
-    margin-top: -303px;
+    position: absolute;
+    left: 397px;
+    top: 2325px;
     cursor: pointer;
 }
 #shoes22_div img{
@@ -682,8 +730,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 275px;
-    margin-top: -303px;
+    position: absolute;
+    left: 649px;
+    top: 2325px;
     cursor: pointer;
 }
 #shoes23_div img{
@@ -694,8 +743,9 @@ body{
     width: 220px;
     height: 217px;
     border: 1px solid rgb(221,226,228);
-    margin-left: 29px;
-    margin-top: -303px;
+    position: absolute;
+    left: 900px;
+    top: 2325px;
     cursor: pointer;
 }
 #shoes24_div img{
@@ -703,174 +753,193 @@ body{
     height: 217px;
 }
 
-/*shoes des*/
+/*shoes des list*/
 #des_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 29px;
-    margin-top: 17px;
+    position: absolute;
+    top: 825px;
+    left: 145px;
 }
 #des1_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 275px;
-    margin-top: 17px;
+    position: absolute;
+    top: 825px;
+    left: 397px;
 }
 #des2_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 521px;
-    margin-top: 17px;
+    position: absolute;
+    top: 825px;
+    left: 649px;
 }
 #des3_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 768px;
-    margin-top: 17px;
+    position: absolute;
+    top: 825px;
+    left: 900px;
 }
 #des4_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 768px;
-    margin-top: 17px;
+    position: absolute;
+    top: 1173px;
+    left: 145px;
 }
 #des5_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 522px;
-    margin-top: 17px;
+    position: absolute;
+    top: 1173px;
+    left: 397px;
 }
 #des6_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 275px;
-    margin-top: 17px;
+    position: absolute;
+    top: 1173px;
+    left: 649px;
 }
 #des7_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 29px;
-    margin-top: 17px;
+    position: absolute;
+    top: 1173px;
+    left: 900px;
 }
 #des8_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 29px;
-    margin-top: 17px;
+    position: absolute;
+    top: 1522px;
+    left: 145px;
 }
 #des9_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 275px;
-    margin-top: 17px;
+    position: absolute;
+    top: 1522px;
+    left: 397px;
 }
 #des10_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 521px;
-    margin-top: 17px;
+    position: absolute;
+    top: 1522px;
+    left: 649px;
 }
 #des11_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 767px;
-    margin-top: 17px;
+    position: absolute;
+    top: 1522px;
+    left: 900px;
 }
 #des12_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 767px;
-    margin-top: 17px;
+    position: absolute;
+    top: 1870px;
+    left: 145px;
 }
 #des13_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 521px;
-    margin-top: 17px;
+    position: absolute;
+    top: 1870px;
+    left: 397px;
 }
 #des14_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 275px;
-    margin-top: 17px;
+    position: absolute;
+    top: 1870px;
+    left:649px;
 }
 #des15_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 29px;
-    margin-top: 17px;
+    position: absolute;
+    top: 1870px;
+    left:900px;
 }
 #des16_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 29px;
-    margin-top: 17px;
+    position: absolute;
+    top: 2215px;
+    left:145px;
 }
 #des17_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 275px;
-    margin-top: 17px;
+    position: absolute;
+    top: 2215px;
+    left:397px;
 }
 #des18_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 521px;
-    margin-top: 17px;
+    position: absolute;
+    top: 2215px;
+    left:649px;
 }
 #des19_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 767px;
-    margin-top: 17px;
+    position: absolute;
+    top: 2215px;
+    left:900px;
 }
 #des20_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 767px;
-    margin-top: 17px;
+    position: absolute;
+    top: 2555px;
+    left:145px;
 }
 #des21_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 521px;
-    margin-top: 17px;
+    position: absolute;
+    top: 2555px;
+    left:397px;
 }
 #des22_div{
      width: 220px;
      height: 65px;
-     /*border: 1px solid black;*/
-     margin-left: 275px;
-     margin-top: 17px;
+    position: absolute;
+    top: 2555px;
+    left:649px;
  }
 #des23_div{
     width: 220px;
     height: 65px;
-    /*border: 1px solid black;*/
-    margin-left: 29px;
-    margin-top: 17px;
+    position: absolute;
+    top: 2555px;
+    left:900px;
+}
+.des{
+    position: absolute;
+    top: 20px;
+    font-family: 微软雅黑;
+}
+.shoe{
+    font-size: 13px;
+    color: rgb(96,96,96);
+    position: absolute;
+    top: 38px;
+    font-family: 微软雅黑;
+}
+.price{
+    font-size: 13px;
+    color: rgb(96,96,96);
+    position: absolute;
+    top: 51px;
+    font-family: 微软雅黑;
 }
 /*页数*/
 #yeshu_div{
@@ -884,24 +953,26 @@ body{
     width: 91px;
     height: 29px;
     border: 1px solid black;
-    margin-left: 37px;
+    position: absolute;
+    top: 2683px;
+    left: 920px;
     cursor: pointer;
 }
 #xiayiye{
     width: 91px;
     height: 29px;
     border: 1px solid black;
-    margin-left: 133px;
-    margin-top: -31px;
+    position: absolute;
+    top: 2683px;
+    left: 1027px;
     cursor: pointer;
 }
-/*end*/
+
 /*end*/
 #end_div{
     width: 1440px;
     height: 341px;
     border: 1px solid black;
-    /*margin-top: 65px;*/
     background-color: black;
 }
 #end_ul{

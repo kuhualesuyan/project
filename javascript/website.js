@@ -49,7 +49,7 @@ home.onmouseout = function(){
 }
 home.onclick = function(){
   home.style.color = 'orange';
-  underline1.style.display = "block";
+  underline1.style.display = "none";
 }
 jordan.onmouseover = function(){
   underline2.style.display = "block";
@@ -60,7 +60,7 @@ jordan.onmouseout = function(){
 }
 jordan.onclick = function(){
   jordan.style.color = 'orange';
-  underline2.style.display = "block";
+  underline2.style.display = "none";
 }
 nike.onmouseover = function(){
   underline3.style.display = "block";
@@ -70,7 +70,7 @@ nike.onmouseout = function(){
 }
 nike.onclick = function(){
   nike.style.color = 'orange';
-  underline2.style.display = "block";
+  underline2.style.display = "none";
 }
 adidas.onmouseover = function(){
   underline4.style.display = "block";
@@ -80,7 +80,7 @@ adidas.onmouseout = function(){
 }
 adidas.onclick = function(){
   adidas.style.color = 'orange';
-  underline2.style.display = "block";
+  underline2.style.display = "none";
 }
 news.onmouseover = function(){
   underline5.style.display = "block";
@@ -90,8 +90,10 @@ news.onmouseout = function(){
 }
 news.onclick = function(){
   news.style.color = 'orange';
-  underline2.style.display = "block";
+  underline2.style.display = "none";
 }
+
+
 var sousuoimg = document.getElementById("sousuoimg");
 var suosouchangeimg = document.getElementById('sousuochangeimg');
 var menu_ul = document.getElementById("menu_ul");
@@ -102,8 +104,20 @@ sousuoimg.onclick = function(){
   menu_ul.style.display = "none";
   input_div.style.display = "block";
 }
+suosouchangeimg.onclick = function(){
+  input_div.style.display = "none";
+  sousuoimg.style.display = "block";
+  suosouchangeimg.style.display = "none";
+  menu_ul.style.display = "block";
+  opacity1.style.top = "854px";
+  opacity2.style.top = "854px";
+  opacity3.style.top = "1106px";
+  opacity4.style.top = "1328px";
+  opacity5.style.top = "1354px";
+  opacity6.style.top = "1606px";
+}
 
-
+//带有透明度的div
 var goumai_div = document.getElementById("goumai_div");
 goumai_div.onclick = function(){
   goumai_div.style.backgroundColor = "orange";
@@ -241,7 +255,7 @@ opacity6.onmouseout = function(){
 //图片
 //轮换图片数组
 var lunBoQi = document.getElementById('tuPian');
-var tuArr = ["../images/shouye/shouye1.png","../images/shouye/shouye1.png","../images/shouye/shouye1.png","../images/shouye/shouye1.png","../images/shouye/shouye1.png"];
+var tuArr = ["../images/shouye/shouye1.png","../images/shouye/1.jpg","../images/shouye/2.jpg","../images/shouye/3.jpg","../images/shouye/shouye1.png"];
 var lanDian = document.getElementsByClassName("myDiv");
 var num = 0;
 var timer = null;
@@ -253,7 +267,7 @@ startMove = function () {
     }
     lanDian[num%tuArr.length].style.background = "#21749e";
     num++;
-  },1000)
+  },2000)
 }
 startMove();
 lunBoQi.onmouseover = function () {
@@ -272,6 +286,18 @@ for(var i = 0; i<lanDian.length;i++){
       lanDian[i].style.background = "#21749e";
       lunBoQi.src = tuArr[i];
       num = i;
+    }
+  }(i))
+}
+
+//选择国旗
+var gq_li = document.getElementsByClassName("gq_li");
+var jt = document.getElementById("jt");
+var jiantouimg = document.getElementById("china1");
+for(var i = 0;i<gq_li.length;i++){
+  (function(i){
+    gq_li[i].onclick = function(){
+       jiantouimg.src = gq_li[i].src;
     }
   }(i))
 }

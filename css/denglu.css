@@ -4,7 +4,7 @@
     /*border: 1px solid black;*/
     position: absolute;
     top: 105px;
-    left: 483px;
+    left: 383px;
     background-color: rgb(255,255,255);
     display: none;
 }
@@ -88,6 +88,7 @@
     margin-top: 32px;
     background-color: black;
     cursor: pointer;
+    border-radius: 4px;
 }
 #dlbtn_div span{
     color: white;
@@ -104,6 +105,7 @@
     margin-top: 15px;
     background-color: white;
     cursor: pointer;
+    border-radius: 4px;
 }
 #create_div span{
     padding-left: 161px;

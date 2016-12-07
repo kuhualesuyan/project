@@ -24,12 +24,12 @@
                 <a href="jiesuan.html"><img src="../images/shouye/shoppingcar.png" style="cursor: pointer;"></a>
 
 
-                <li style="list-style-type: none;"  id="jiantouimg"> <img src="../images/shouye/china.png">
-                    <img src="../images/shouye/jiantou.png">
+                <li style="list-style-type: none;"  id="jiantouimg"> <img src="../images/shouye/china.png" id="china1">
+                    <img src="../images/shouye/jiantou.png" id="jt">
                     <ul id="guoqi">
-                        <li><img src="../images/shouye/guoqi1.png"></li>
-                        <li><img src="../images/shouye/guoqi2.png"></li>
-                        <li><img src="../images/shouye/guoqi3.png"></li>
+                        <li ><img class="gq_li" src="../images/shouye/guoqi1.png"></li>
+                        <li><img  class="gq_li" src="../images/shouye/guoqi2.png"></li>
+                        <li><img  class="gq_li" src="../images/shouye/guoqi3.png"></li>
                     </ul>
                 </li>
 
@@ -85,7 +85,6 @@
         <div id="input_div">
             <input type="text">
             <span>请输入商品信息  |</span>
-        </div>
     </div>
     <div id="goodsMsg">
         <div id="displayGoods">
@@ -116,14 +115,14 @@
             </div>
             <a href="#" id="size_href">尺码表</a>
             <div id="size_div">
-                <span>尺码</span>
-                <li id="size_li"><img src="../images/shouye/jt.png">
+                <span id="cm">尺码</span>
+                <li id="size_li"><img src="../images/shouye/jt.png"  id="xjt">
                 <ul id="size">
-                    <li>38</li>
-                    <li>39</li>
-                    <li>40</li>
-                    <li>41</li>
-                    <li>42</li>
+                    <li class="cm_li">38</li>
+                    <li class="cm_li">39</li>
+                    <li class="cm_li">40</li>
+                    <li class="cm_li">41</li>
+                    <li class="cm_li">42</li>
                 </ul>
                 </li>
             </div>
@@ -136,10 +135,10 @@
                 <a href="jiesuan.html"><span>加入购物车</span></a>
             </div>
             <span id="detailGoods2_span">保存</span>
-            <hr style="position: absolute;top: 608px;left: 837px; width: 333px;">
+            <hr style="position: absolute;top: 608px;left:765px; width: 333px;">
             <span id="detailGoods3_span">购物满￥399免运费.立即注册享受免费配送服务.</span>
             <a id="detail_href" href="#">查看详细信息</a>
-            <hr style="position: absolute;top: 640px;left: 837px;width: 333px;">
+            <hr style="position: absolute;top: 640px;left: 765px;width: 333px;">
         </div>
     </div>
     <div id="like_div">
@@ -156,28 +155,28 @@
                 <b><span class="miaoshu_span">NIKE PRIMY HYPE DF 2016 EP</span></b>
                 <span class="miaoshu1_span">男子篮球鞋</span>
                 <span class="price_span">￥699</span>
-                <hr style="position: absolute;width: 218px;top: 1278px;">
+                <hr style="position: absolute;width: 218px;top: 21px;">
             </div>
             <div id="color2_div">
-                <b><span id="color2_span" style="font-family: 微软雅黑;">2色</span></b>
+                <b><span id="color2_span" style="font-family: 微软雅黑;">5色</span></b>
                 <b><span class="miaoshu2_span">NIKE PRIMY HYPE DF 2016 EP</span></b>
                 <span class="miaoshu3_span">男子篮球鞋</span>
                 <span class="price1_span">￥699</span>
-                <hr style="position: absolute;width: 218px;top: 1278px;">
+                <hr style="position: absolute;width: 218px;top: 21px;">
             </div>
             <div id="color3_div">
-                <b><span id="color3_span" style="font-family: 微软雅黑;">2色</span></b>
+                <b><span id="color3_span" style="font-family: 微软雅黑;">7色</span></b>
                 <b><span class="miaoshu4_span">NIKE PRIMY HYPE DF 2016 EP</span></b>
                 <span class="miaoshu5_span">男子篮球鞋</span>
                 <span class="price2_span">￥699</span>
-                <hr style="position: absolute;width: 218px;top: 1278px;">
+                <hr style="position: absolute;width: 218px;top: 21px;">
             </div>
             <div id="color4_div">
-                <b><span id="color4_span" style="font-family: 微软雅黑;">2色</span></b>
+                <b><span id="color4_span" style="font-family: 微软雅黑;">3色</span></b>
                 <b><span class="miaoshu6_span">NIKE PRIMY HYPE DF 2016 EP</span></b>
                 <span class="miaoshu7_span">男子篮球鞋</span>
                 <span class="price3_span">￥699</span>
-                <hr style="position: absolute;width: 218px;top: 1278px;">
+                <hr style="position: absolute;width: 218px;top: 21px;">
             </div>
         </div>
     </div>
@@ -192,7 +191,7 @@
             </div>
             <div id="qitades_div">
                 <span style="font-size: 23px;font-family: 微软雅黑;">其他细节</span><br>
-                <span style="font-size: 17px;color: rgb(176,176,176);font-family: 微软雅黑;">前掌与后跟搭载Zoom Air气垫，灵敏缓震，三条固定带，打造专属的老固贴合感，三层泡棉与之合物组合鞋面，轻盈透气，打造出众舒适感受，紧密的内靴设计，营造舒适的贴合效果，耐磨橡胶外底可在多种场地表面产生多向抓地力，产品信息描述以453535为参照，实物的具体信息若雨参照物和网站上的照片有出入，请以实物为准，如有其他疑问，请联系我们</span>
+                <span style="font-size: 15px;color: rgb(176,176,176);font-family: 微软雅黑;">前掌与后跟搭载Zoom Air气垫，灵敏缓震，三条固定带，打造专属的老固贴合感，三层泡棉与之合物组合鞋面，轻盈透气，打造出众舒适感受，紧密的内靴设计，营造舒适的贴合效果，耐磨橡胶外底可在多种场地表面产生多向抓地力，产品信息描述以453535为参照，实物的具体信息若雨参照物和网站上的照片有出入，请以实物为准，如有其他疑问，请联系我们</span>
             </div>
         </div>
     </div>

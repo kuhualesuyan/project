@@ -5,7 +5,7 @@ body{
 #zDiv{
     width: 1440px;
     height:3162px;
-    margin-left: -29px;
+    margin-left: -100px;
     /*border: 1px solid black;*/
 }
 /*head begin*/
@@ -85,13 +85,10 @@ body{
     margin-top: -16px;
 }
 #jiantouimg{
-    /* padding-left: 50px;*/
     position: absolute;
     top: 14px;
-    left: 1113px;
+    left: 1047px;
     cursor: context-menu;
-    /*width: 0px;*/
-    /*height: 0px;*/
 }
 /*head end*/
 
@@ -132,32 +129,32 @@ body{
 }
 #underline1{
     position: absolute;
-    left: 441px;
-    top: 221px;
+    left: 373px;
+    top: 219px;
     display: none;
 }
 #underline2{
     position: absolute;
-    left: 548px;
-    top: 221px;
+    left: 475px;
+    top: 219px;
     display: none;
 }
 #underline3{
     position: absolute;
-    left: 649px;
-    top: 221px;
+    left: 575px;
+    top: 219px;
     display: none;
 }
 #underline4{
     position: absolute;
-    left: 745px;
-    top: 221px;
+    left: 673px;
+    top: 219px;
     display: none;
 }
 #underline5{
     position: absolute;
-    left: 849px;
-    top: 221px;
+    left: 774px;
+    top: 219px;
     display: none;
 }
 #sousuoimg{
@@ -170,7 +167,7 @@ body{
 #sousuochangeimg{
     position: absolute;
     top: 173px;
-    left: 979px;
+    left: 908px;
     display: none;
 }
 
@@ -209,24 +206,30 @@ body{
     color:rgb(0,170,232);
 }
 #input_div{
+    width: 1002px;
+    height: 52px;
+    /* border: 1px solid black; */
+    margin-top: -52px;
+    margin-left: 245px;
+    background-color: rgb(129,129,129);
     display: none;
-    position: absolute;
-    top: 226px;
-    left: 276px;
 }
 #input_div input{
-    width: 1001px;
-    height: 52px;
+    width: 500px;
+    height: 31px;
     border: none;
     background-color: rgb(129,129,129);
-    margin-left: -59px;
+    margin-left: 167px;
+    margin-top: 8px;
+    outline: none;
 }
 #input_div span{
     color: white;
     position: absolute;
-    top: 21px;
-    left: -2px;
+    top: 241px;
+    left: 213px;
     font-size: 13px;
+    font-family: 微软雅黑;
 }
 /*good detail*/
 #goodsMsg{
@@ -335,7 +338,7 @@ body{
 #pingjia_href{
     font-size: 13px;
     color: rgb(84,84,84);
-    padding-left: 210px;
+    padding-left: 186px;
     font-family: 微软雅黑;
 }
 #ys{
@@ -368,16 +371,16 @@ body{
 }
 #kuanshi_span{
     font-size: 13px;
-    left: 1065px;
+    left: 980px;
     position: absolute;
     font-family: 微软雅黑;
 }
 #xianshi_div{
-    width: 103px;
+    width: 108px;
     height: 51px;
     /*border: 1px solid rgb(223,227,229);*/
     position: absolute;
-    top: 444px;
+    top: 457px;
     background-color: rgb(245,245,245);
 
 }
@@ -395,7 +398,7 @@ body{
     width: 51px;
     height: 51px;
     border: 1px solid rgb(223,227,229);
-    margin-left: 52px;
+    margin-left: 55px;
     margin-top: -53px;
     cursor: pointer;
 }
@@ -407,9 +410,9 @@ body{
     font-size: 13px;
     color: rgb(84,84,84);
     padding-left: -14px;
-    margin-left: -123px;
+    left:766px;
     position: absolute;
-    top: 513px;
+    top: 518px;
     font-family: 微软雅黑;
 }
 #size_div{
@@ -441,13 +444,14 @@ body{
     top: 541px;
     border-radius: 4px;
     background-color: rgb(205,205,205);
-    left: 932px;
+    left: 869px;
 }
 #jiabtn{
     border: none;
     width: 20px;
     height: 34px;
     outline: none;
+    border-radius: 4px;
 }
 #jianbtn{
     height: 34px;
@@ -456,6 +460,7 @@ body{
     position: absolute;
     left: 69px;
     outline: none;
+    border-radius: 4px;
 }
 #amount_span{
     position: absolute;
@@ -467,7 +472,7 @@ body{
     height: 34px;
     /*border: 1px solid black;*/
     position: absolute;
-    left: 1028px;
+    left:971px;
     top: 541px;
     border-radius: 4px;
     background-color: rgb(250,84,0);
@@ -485,7 +490,7 @@ body{
     font-size: 14px;
     position: absolute;
     top: 591px;
-    left: 1138px;
+    left: 1077px;
     color: rgb(84,84,84);
     cursor: pointer;
     font-family: 微软雅黑;
@@ -495,7 +500,7 @@ body{
      color: rgb(84,84,84);
      position: absolute;
      top: 624px;
-     left: 837px;
+     left: 765px;
     font-family: 微软雅黑;
  }
 #detail_href{
@@ -503,7 +508,7 @@ body{
     color: rgb(143,142,141);
     position: absolute;
     top: 624px;
-    left: 1091px;
+    left: 1024px;
     font-family: 微软雅黑;
 }
 /*maybe you like */
@@ -537,7 +542,8 @@ body{
     width: 218px;
     height: 216px;
     /*border: 1px solid black;*/
-    margin-left: 21px;
+    position: absolute;
+    left: 153px;
     cursor: pointer;
 }
 #qiuxie1_div img{
@@ -548,8 +554,8 @@ body{
     width: 218px;
     height: 216px;
     /*border: 1px solid black;*/
-    margin-left: 261px;
-    margin-top: -218px;
+    position: absolute;
+    left: 406px;
     cursor: pointer;
 }
 #qiuxie2_div img{
@@ -560,8 +566,8 @@ body{
     width: 218px;
     height: 216px;
     /*border: 1px solid black;*/
-    margin-left: 501px;
-    margin-top: -218px;
+    position: absolute;
+    left: 655px;
     cursor: pointer;
 }
 #qiuxie3_div img{
@@ -572,8 +578,8 @@ body{
     width: 218px;
     height: 216px;
     /*border: 1px solid black;*/
-    margin-left: 741px;
-    margin-top: -218px;
+    position: absolute;
+    left: 908px;
     cursor: pointer;
 }
 #qiuxie4_div img{
@@ -582,128 +588,132 @@ body{
 }
 #color1_div{
     width: 218px;
-    height: 64px;
+    height: 87px;
     /*border: 1px solid black;*/
-    margin-left: 21px;
-    margin-top: 16px;
+    position: absolute;
+    top: 1286px;
+    left: 153px;
 }
 #color2_div{
     width: 218px;
-    height: 64px;
+    height: 87px;
     /*border: 1px solid black;*/
-    margin-left: 261px;
-    margin-top: -66px;
+    position: absolute;
+    top: 1286px;
+    left: 406px;
 }
 #color3_div{
     width: 218px;
-    height: 64px;
+    height: 87px;
     /*border: 1px solid black;*/
-    margin-left: 501px;
-    margin-top: -66px;
+    position: absolute;
+    top: 1286px;
+    left: 654px;
 
 }
 #color4_div{
     width: 218px;
-    height: 64px;
+    height: 87px;
     /*border: 1px solid black;*/
-    margin-left: 741px;
-    margin-top: -66px;
-}
-.miaoshu_span{
-    font-size: 15px;
     position: absolute;
     top: 1286px;
-    left: 225px;
+    left: 908px;
+}
+.miaoshu_span{
+    font-size: 14px;
+    position: absolute;
+    top: 33px;
+    left: 0px;
     font-family: 微软雅黑;
 }
 .miaoshu1_span{
     font-size: 12px;
     color: rgb(78,77,77);
     position: absolute;
-    top: 1305px;
-    left: 225px;
+    top: 51px;
+    left: 0px;
     font-family: 微软雅黑;
 }
 .miaoshu2_span{
-    font-size: 15px;
+    font-size: 14px;
     position: absolute;
-    top: 1286px;
-    left: 463px;
+    top: 33px;
+    left: 0px;
     font-family: 微软雅黑;
 }
 .miaoshu3_span{
     font-size: 12px;
     color: rgb(78,77,77);
     position: absolute;
-    top: 1305px;
-    left: 463px;
+    top: 51px;
+    left: 0px;
     font-family: 微软雅黑;
 }
 .price_span{
     font-size: 12px;
     color: rgb(78,77,77);
     position: absolute;
-    top: 1323px;
-    left: 225px;
+    top: 67px;
+    left: 0px;
     font-family: 微软雅黑;
 }
 .price1_span{
     font-size: 12px;
     color: rgb(78,77,77);
     position: absolute;
-    top: 1323px;
-    left: 463px;
+    top: 67px;
+    left: 0px;
     font-family: 微软雅黑;
 }
 .miaoshu4_span{
-    font-size: 15px;
+    font-size: 14px;
     position: absolute;
-    top: 1286px;
-    left: 703px;
+    top: 33px;
+    left: 0px;
     font-family: 微软雅黑;
 }
 .miaoshu5_span{
     font-size: 12px;
     color: rgb(78,77,77);
     position: absolute;
-    top: 1305px;
-    left: 703px;
+    top: 51px;
+    left: 0px;
     font-family: 微软雅黑;
 }
 .price2_span{
     font-size: 12px;
     color: rgb(78,77,77);
     position: absolute;
-    top: 1323px;
-    left: 703px;
+    top: 67px;
+    left: 0px;
     font-family: 微软雅黑;
 }
 .miaoshu6_span{
-    font-size: 15px;
+    font-size: 14px;
     position: absolute;
-    top: 1286px;
-    left: 943px;
+    top: 33px;
+    left: 0px;
     font-family: 微软雅黑;
 }
 .miaoshu7_span{
     font-size: 12px;
     color: rgb(78,77,77);
     position: absolute;
-    top: 1305px;
-    left: 943px;
+    top: 51px;
+    left: 0px;
     font-family: 微软雅黑;
 }
 .price3_span{
     font-size: 12px;
     color: rgb(78,77,77);
     position: absolute;
-    top: 1323px;
-    left: 943px;
+    top: 67px;
+    left: 0px;
     font-family: 微软雅黑;
 }
 #xijie_div{
     width: 1002px;
-    height: 555px;
+    height: 500px;
     /*border: 1px solid black;*/
     margin-left: 232px;
     /*border-top: 1px solid rgb(205,205,205);*/
@@ -783,7 +793,7 @@ body{
     color: white;
     padding-left: 33px;
     position: absolute;
-    top: 2253px;
+    top: 2218px;
     cursor: pointer;
     font-family: 微软雅黑;
 }
@@ -960,7 +970,7 @@ body{
     font-size: 17px;
     padding-left: 10px;
     position: absolute;
-    top: 2209px;
+    top: 2173px;
     font-family: 微软雅黑;
 }
 #qi_div{

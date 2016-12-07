@@ -5,7 +5,7 @@ body{
 #ZDiv{
     width: 1440px;
     height: 1080px;
-    margin-left: -29px;
+    margin-left: -100px;
     /*border: 1px solid black;*/
 }
 /*head begin*/
@@ -88,7 +88,7 @@ body{
     /* padding-left: 50px;*/
     position: absolute;
     top: 14px;
-    left: 1113px;
+    left: 1047px;
     cursor: context-menu;
     /*width: 0px;*/
     /*height: 0px;*/
@@ -245,7 +245,7 @@ body{
     height: 111px;
     border: 1px solid rgb(235,235,235);
     position: absolute;
-    left: 880px;
+    left: 806px;
     top: 619px;
 }
 /*end*/

@@ -9,7 +9,7 @@ a{
 #zdiv{
     width:1440px;
     height:2298px;
-    margin-left: -29px;
+    margin-left: -100px;
     /*border:1px solid black;*/
 }
 #z_div{
@@ -98,18 +98,14 @@ a{
     margin-top: -16px;
 }
 #jiantouimg{
-   /* padding-left: 50px;*/
     position: absolute;
     top: 14px;
-    left: 1113px;
+    left: 1047px;
     cursor: context-menu;
-    /*width: 0px;*/
-    /*height: 0px;*/
 }
 #logoimg_div{
     width: 1439px;
     height: 88px;
-    /*border: 1px solid black;*/
 }
 #logoimg{
     padding-left: 564px;
@@ -140,31 +136,31 @@ a{
 }
 #underline1{
     position: absolute;
-    left: 441px;
+    left: 373px;
     top: 221px;
     display: none;
 }
 #underline2{
     position: absolute;
-    left: 548px;
+    left: 475px;
     top: 221px;
     display: none;
 }
 #underline3{
     position: absolute;
-    left: 649px;
+    left: 575px;
     top: 221px;
     display: none;
 }
 #underline4{
     position: absolute;
-    left: 745px;
+    left: 673px;
     top: 221px;
     display: none;
 }
 #underline5{
     position: absolute;
-    left: 849px;
+    left: 774px;
     top: 221px;
     display: none;
 }
@@ -178,7 +174,7 @@ a{
 #sousuochangeimg{
     position: absolute;
     top: 173px;
-    left: 979px;
+    left: 908px;
     display: none;
 }
 #list_div{
@@ -228,7 +224,7 @@ a{
     height: 31px;
     border: none;
     background-color: rgb(129,129,129);
-    margin-left: 195px;
+    margin-left: 194px;
     margin-top: 8px;
     outline: none;
 }
@@ -236,7 +232,7 @@ a{
     color: white;
     position: absolute;
     top: 241px;
-    left: 284px;
+    left: 213px;
     font-size: 13px;
     font-family: 微软雅黑;
 }
@@ -267,13 +263,16 @@ a{
     top: -16px;
     font-family: 微软雅黑;
 }
+#tuPian{
+    width: 1001px;
+}
 #goumai_div{
     width: 224px;
     height: 45px;
     border: 1px solid white;
     position: absolute;
     top: 627px;
-    left: 256px;
+    left: 188px;
     border-radius: 9px;
     cursor: pointer;
     /*display: none;*/
@@ -291,7 +290,7 @@ a{
     border: 1px solid white;
     position: absolute;
     top: 1203px;
-    left: 312px;
+    left: 237px;
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
@@ -311,7 +310,7 @@ a{
     border: 1px solid white;
     position: absolute;
     top: 956px;
-    left: 816px;
+    left: 745px;
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
@@ -330,7 +329,7 @@ a{
     border: 1px solid white;
     position: absolute;
     top: 1231px;
-    left: 812px;
+    left: 745px;
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
@@ -349,7 +348,7 @@ a{
     border: 1px solid white;
     position: absolute;
     top: 1482px;
-    left: 312px;
+    left: 237px;
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
@@ -387,7 +386,7 @@ a{
     border: 1px solid white;
     position: absolute;
     top: 1799px;
-    left: 587px;
+    left: 513px;
     border-radius: 9px;
     cursor: pointer;
     z-index: 8;
@@ -418,50 +417,50 @@ a{
 }
 #opacity1{
     width: 529px;
-    height: 476px;
+    height: 474px;
     background-color: rgb(139,206,239);
     position: absolute;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     top: 857px;
     opacity: 0.5;
     display: none;
 }
 #opacity2{
     width: 471px;
-    height: 254px;
+    height: 252px;
     background-color: rgb(244,183,87);
     position: absolute;
-    border: 1px solid black;
-    top: 855px;
+    /* border: 1px solid black; */
+    top: 857px;
     opacity: 0.5;
-    display: none;
+     display: none;
 }
 #opacity3{
     width: 470px;
-    height: 248px;
+    height: 249px;
     background-color: rgb(145,0,123);
     position: absolute;
-    border: 1px solid black;
-    top: 1108px;
+    /*border: 1px solid black;*/
+    top: 1109px;
     opacity: 0.5;
     display: none;
 }
 #opacity4{
-    width: 528px;
+    width: 529px;
     height: 278px;
     background-color: rgb(245,159,188);
     position: absolute;
-    border: 1px solid black;
-    top: 1330px;
+    /*border: 1px solid black;*/
+    top: 1331px;
     opacity: 0.5;
     display: none;
 }
 #opacity5{
-    width: 470px;
-    height: 250px;
+    width: 472px;
+    height: 251px;
     background-color: rgb(236,107,118);
     position: absolute;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     top: 1358px;
     opacity: 0.5;
     display: none;
@@ -471,8 +470,8 @@ a{
     height: 418px;
     background-color: rgb(121,196,113);
     position: absolute;
-    border: 1px solid black;
-    top: 1609px;
+    /*border: 1px solid black;*/
+    top: 1610px;
     opacity: 0.5;
     display: none;
 }
@@ -494,7 +493,7 @@ a{
     width: 471px;
     height: 251px;
     /*border: 1px solid black;*/
-    margin-left: 530px;
+    margin-left: 529px;
     margin-top: -254px;
 }
 #syendimg_div{
